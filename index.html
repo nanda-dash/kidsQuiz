@@ -34,6 +34,23 @@
             font-size: 2.5em; /* Larger title */
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add text shadow */
         }
+        .quiz-selector {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        .quiz-selector label {
+            margin-right: 10px;
+            font-weight: bold;
+            color: #00796b;
+        }
+        .quiz-selector select {
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #00796b;
+            font-size: 1em;
+            cursor: pointer;
+        }
         .question {
             margin-bottom: 30px; /* More space between questions */
             padding-bottom: 20px;
@@ -182,6 +199,12 @@
 
     <div class="quiz-container">
         <h1>Kids Vocabulary Puzzle Quiz!</h1>
+
+        <div class="quiz-selector">
+            <label for="quizSelect">Choose a Quiz:</label>
+            <select id="quizSelect"></select>
+        </div>
+
         <p style="text-align: center; margin-bottom: 25px;">Choose the correct word for each clue!</p>
 
         <div id="quizQuestions">
@@ -195,27 +218,63 @@
     </div>
 
     <script>
-        let quizData = []; // Variable to store the quiz data from the JSON file
+        let quizData = []; // Variable to store the currently loaded quiz data
+        // Define the list of available quiz files
+        const quizFiles = [
+            { name: 'Vocabulary Quiz 1', file: 'quiz_data.json' }
+            // Add more quiz files here, e.g.:
+             { name: 'Animal Quiz', file: 'animal_quiz.json' },
+             { name: 'Food Quiz', file: 'food_quiz.json' }
+        ];
 
-        // Function to fetch quiz data from the JSON file
-        async function loadQuizData() {
+        // Function to populate the quiz selection dropdown
+        function populateQuizSelect() {
+            const selectElement = document.getElementById('quizSelect');
+            quizFiles.forEach((quiz, index) => {
+                const option = document.createElement('option');
+                option.value = quiz.file;
+                option.textContent = quiz.name;
+                selectElement.appendChild(option);
+            });
+
+            // Add event listener to load quiz when selection changes
+            selectElement.addEventListener('change', (event) => {
+                const selectedFile = event.target.value;
+                loadQuizData(selectedFile);
+            });
+        }
+
+
+        // Function to fetch quiz data from a specified JSON file
+        async function loadQuizData(filePath) {
             try {
-                const response = await fetch('quiz_data.json'); // Fetch the JSON file
+                const response = await fetch(filePath); // Fetch the specified JSON file
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 quizData = await response.json(); // Parse the JSON data
                 displayQuestions(); // Once data is loaded, display the questions
+                 // Clear previous results and celebration when a new quiz is loaded
+                document.getElementById('quizResults').innerHTML = '';
+                document.getElementById('quizCelebration').innerHTML = '';
             } catch (error) {
                 console.error('Error loading quiz data:', error);
-                document.getElementById('quizQuestions').innerHTML = '<p>Error loading quiz questions. Please try again later.</p>';
+                document.getElementById('quizQuestions').innerHTML = '<p>Error loading quiz questions. Please ensure the quiz file exists and is in the correct format.</p>';
+                 // Clear previous results and celebration on error
+                document.getElementById('quizResults').innerHTML = '';
+                document.getElementById('quizCelebration').innerHTML = '';
             }
         }
 
-        // Function to dynamically display the questions
+        // Function to dynamically display the questions based on the loaded quizData
         function displayQuestions() {
             const quizQuestionsDiv = document.getElementById('quizQuestions');
             quizQuestionsDiv.innerHTML = ''; // Clear any existing content
+
+            if (quizData.length === 0) {
+                 quizQuestionsDiv.innerHTML = '<p>No questions available for this quiz.</p>';
+                 return; // Exit if no questions are loaded
+            }
 
             quizData.forEach((question, index) => {
                 const questionElement = document.createElement('div');
@@ -229,7 +288,10 @@
                 const optionsDiv = document.createElement('div');
                 optionsDiv.classList.add('options');
 
-                question.options.forEach(option => {
+                // Shuffle options for a bit of variety (optional)
+                const shuffledOptions = [...question.options].sort(() => Math.random() - 0.5);
+
+                shuffledOptions.forEach(option => {
                     const label = document.createElement('label');
                     const radioInput = document.createElement('input');
                     radioInput.type = 'radio';
@@ -308,21 +370,29 @@
             resultsDiv.innerHTML = `You got ${score} out of ${totalQuestions} correct!`;
 
             // Display a celebration message based on the score
-            if (score === totalQuestions) {
+            if (score === totalQuestions && totalQuestions > 0) { // Ensure there were questions
                 // Perfect score celebration
-                celebrationDiv.innerHTML = `Amazing job! You are a vocabulary star! ✨🎉 <br> <img src="happy.png" alt="Celebration image">`; // You could use a different celebration image here
-            } else if (score >= totalQuestions / 2) {
+                celebrationDiv.innerHTML = `Amazing job! You are a vocabulary star! ✨🎉 `; // You could use a different celebration image here
+            } else if (score >= totalQuestions / 2 && totalQuestions > 0) {
                  // Good effort message
                  celebrationDiv.innerHTML = `Great effort! Keep practicing and you'll get even better! 👍`;
-            } else {
+            } else if (totalQuestions > 0) {
                  // Encouragement message
                  celebrationDiv.innerHTML = `Nice try! Keep learning new words! 😊`;
             }
              celebrationDiv.style.marginTop = '20px'; // Add some space above the celebration message
         }
 
-        // Load the quiz data when the page loads
-        window.onload = loadQuizData;
+        // Load the quiz data and populate the dropdown when the page loads
+        window.onload = () => {
+            populateQuizSelect(); // Populate the dropdown first
+            // Load the first quiz by default
+            if (quizFiles.length > 0) {
+                loadQuizData(quizFiles[0].file);
+            } else {
+                 document.getElementById('quizQuestions').innerHTML = '<p>No quiz files defined.</p>';
+            }
+        };
 
     </script>
 
