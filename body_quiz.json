@@ -1,0 +1,47 @@
+[
+  {
+    "question": "I help you see the world around you. What am I?",
+    "options": [
+      {"value": "eyes", "text": "Eyes"},
+      {"value": "ears", "text": "Ears"},
+      {"value": "nose", "text": "Nose"}
+    ],
+    "correctAnswer": "eyes"
+  },
+  {
+    "question": "I help you smell flowers and food. What am I?",
+    "options": [
+      {"value": "mouth", "text": "Mouth"},
+      {"value": "nose", "text": "Nose"},
+      {"value": "ears", "text": "Ears"}
+    ],
+    "correctAnswer": "nose"
+  },
+  {
+    "question": "I help you hear music and sounds. What am I?",
+    "options": [
+      {"value": "ears", "text": "Ears"},
+      {"value": "eyes", "text": "Eyes"},
+      {"value": "mouth", "text": "Mouth"}
+    ],
+    "correctAnswer": "ears"
+  },
+  {
+    "question": "I help you taste yummy food. What am I?",
+    "options": [
+      {"value": "mouth", "text": "Mouth"},
+      {"value": "nose", "text": "Nose"},
+      {"value": "eyes", "text": "Eyes"}
+    ],
+    "correctAnswer": "mouth"
+  },
+  {
+    "question": "I help you walk and run. What am I?",
+    "options": [
+      {"value": "legs", "text": "Legs"},
+      {"value": "arms", "text": "Arms"},
+      {"value": "hands", "text": "Hands"}
+    ],
+    "correctAnswer": "legs"
+  }
+]

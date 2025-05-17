@@ -1,0 +1,47 @@
+[
+  {
+    "question": "I fall from the sky as drops and water the plants. What am I?",
+    "options": [
+      {"value": "rain", "text": "Rain"},
+      {"value": "snow", "text": "Snow"},
+      {"value": "wind", "text": "Wind"}
+    ],
+    "correctAnswer": "rain"
+  },
+  {
+    "question": "I am white and fluffy and float in the sky. What am I?",
+    "options": [
+      {"value": "cloud", "text": "Cloud"},
+      {"value": "rock", "text": "Rock"},
+      {"value": "tree", "text": "Tree"}
+    ],
+    "correctAnswer": "cloud"
+  },
+  {
+    "question": "I am bright and warm and help plants grow. What am I?",
+    "options": [
+      {"value": "sun", "text": "Sun"},
+      {"value": "moon", "text": "Moon"},
+      {"value": "star", "text": "Star"}
+    ],
+    "correctAnswer": "sun"
+  },
+  {
+    "question": "I am tall and have leaves and branches. Birds like to sit in me. What am I?",
+    "options": [
+      {"value": "tree", "text": "Tree"},
+      {"value": "flower", "text": "Flower"},
+      {"value": "bush", "text": "Bush"}
+    ],
+    "correctAnswer": "tree"
+  },
+  {
+    "question": "I am a small, colorful plant that grows in gardens. What am I?",
+    "options": [
+      {"value": "flower", "text": "Flower"},
+      {"value": "tree", "text": "Tree"},
+      {"value": "grass", "text": "Grass"}
+    ],
+    "correctAnswer": "flower"
+  }
+]

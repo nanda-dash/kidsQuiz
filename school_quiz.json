@@ -1,0 +1,47 @@
+[
+  {
+    "question": "I am used to write on paper and have an eraser on top. What am I?",
+    "options": [
+      {"value": "pen", "text": "Pen"},
+      {"value": "pencil", "text": "Pencil"},
+      {"value": "marker", "text": "Marker"}
+    ],
+    "correctAnswer": "pencil"
+  },
+  {
+    "question": "I am a place where children go to learn. What am I?",
+    "options": [
+      {"value": "school", "text": "School"},
+      {"value": "park", "text": "Park"},
+      {"value": "zoo", "text": "Zoo"}
+    ],
+    "correctAnswer": "school"
+  },
+  {
+    "question": "I am a book full of blank pages for writing notes. What am I?",
+    "options": [
+      {"value": "notebook", "text": "Notebook"},
+      {"value": "textbook", "text": "Textbook"},
+      {"value": "magazine", "text": "Magazine"}
+    ],
+    "correctAnswer": "notebook"
+  },
+  {
+    "question": "I am a tool used to measure how long things are. What am I?",
+    "options": [
+      {"value": "ruler", "text": "Ruler"},
+      {"value": "eraser", "text": "Eraser"},
+      {"value": "scissors", "text": "Scissors"}
+    ],
+    "correctAnswer": "ruler"
+  },
+  {
+    "question": "I am a bag used to carry books and supplies to school. What am I?",
+    "options": [
+      {"value": "backpack", "text": "Backpack"},
+      {"value": "lunchbox", "text": "Lunchbox"},
+      {"value": "pencil case", "text": "Pencil Case"}
+    ],
+    "correctAnswer": "backpack"
+  }
+]

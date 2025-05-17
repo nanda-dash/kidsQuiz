@@ -1,0 +1,47 @@
+[
+  {
+    "question": "I am the color of the sky on a clear day. What color am I?",
+    "options": [
+      {"value": "blue", "text": "Blue"},
+      {"value": "green", "text": "Green"},
+      {"value": "yellow", "text": "Yellow"}
+    ],
+    "correctAnswer": "blue"
+  },
+  {
+    "question": "I am the color of grass. What color am I?",
+    "options": [
+      {"value": "red", "text": "Red"},
+      {"value": "green", "text": "Green"},
+      {"value": "blue", "text": "Blue"}
+    ],
+    "correctAnswer": "green"
+  },
+  {
+    "question": "I am the color of the sun and bananas. What color am I?",
+    "options": [
+      {"value": "yellow", "text": "Yellow"},
+      {"value": "purple", "text": "Purple"},
+      {"value": "orange", "text": "Orange"}
+    ],
+    "correctAnswer": "yellow"
+  },
+  {
+    "question": "I am the color of strawberries. What color am I?",
+    "options": [
+      {"value": "red", "text": "Red"},
+      {"value": "blue", "text": "Blue"},
+      {"value": "green", "text": "Green"}
+    ],
+    "correctAnswer": "red"
+  },
+  {
+    "question": "I am the color you get when you mix red and blue. What color am I?",
+    "options": [
+      {"value": "purple", "text": "Purple"},
+      {"value": "orange", "text": "Orange"},
+      {"value": "yellow", "text": "Yellow"}
+    ],
+    "correctAnswer": "purple"
+  }
+]

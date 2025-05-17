@@ -1,0 +1,47 @@
+[
+  {
+    "question": "I am your mother's mother. What am I?",
+    "options": [
+      {"value": "grandmother", "text": "Grandmother"},
+      {"value": "aunt", "text": "Aunt"},
+      {"value": "sister", "text": "Sister"}
+    ],
+    "correctAnswer": "grandmother"
+  },
+  {
+    "question": "I am your father's son. What am I?",
+    "options": [
+      {"value": "brother", "text": "Brother"},
+      {"value": "uncle", "text": "Uncle"},
+      {"value": "cousin", "text": "Cousin"}
+    ],
+    "correctAnswer": "brother"
+  },
+  {
+    "question": "I am your parent's daughter. What am I?",
+    "options": [
+      {"value": "sister", "text": "Sister"},
+      {"value": "aunt", "text": "Aunt"},
+      {"value": "mother", "text": "Mother"}
+    ],
+    "correctAnswer": "sister"
+  },
+  {
+    "question": "I am your father's brother. What am I?",
+    "options": [
+      {"value": "uncle", "text": "Uncle"},
+      {"value": "grandfather", "text": "Grandfather"},
+      {"value": "brother", "text": "Brother"}
+    ],
+    "correctAnswer": "uncle"
+  },
+  {
+    "question": "I am your mother's husband. What am I?",
+    "options": [
+      {"value": "father", "text": "Father"},
+      {"value": "uncle", "text": "Uncle"},
+      {"value": "brother", "text": "Brother"}
+    ],
+    "correctAnswer": "father"
+  }
+]

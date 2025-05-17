@@ -1,0 +1,47 @@
+[
+  {
+    "question": "I help sick people feel better and work in a hospital. What am I?",
+    "options": [
+      {"value": "teacher", "text": "Teacher"},
+      {"value": "doctor", "text": "Doctor"},
+      {"value": "chef", "text": "Chef"}
+    ],
+    "correctAnswer": "doctor"
+  },
+  {
+    "question": "I teach children new things at school. What am I?",
+    "options": [
+      {"value": "teacher", "text": "Teacher"},
+      {"value": "pilot", "text": "Pilot"},
+      {"value": "farmer", "text": "Farmer"}
+    ],
+    "correctAnswer": "teacher"
+  },
+  {
+    "question": "I fly airplanes in the sky. What am I?",
+    "options": [
+      {"value": "pilot", "text": "Pilot"},
+      {"value": "doctor", "text": "Doctor"},
+      {"value": "chef", "text": "Chef"}
+    ],
+    "correctAnswer": "pilot"
+  },
+  {
+    "question": "I grow crops and take care of animals on a farm. What am I?",
+    "options": [
+      {"value": "farmer", "text": "Farmer"},
+      {"value": "teacher", "text": "Teacher"},
+      {"value": "pilot", "text": "Pilot"}
+    ],
+    "correctAnswer": "farmer"
+  },
+  {
+    "question": "I cook food in a restaurant. What am I?",
+    "options": [
+      {"value": "chef", "text": "Chef"},
+      {"value": "doctor", "text": "Doctor"},
+      {"value": "farmer", "text": "Farmer"}
+    ],
+    "correctAnswer": "chef"
+  }
+]

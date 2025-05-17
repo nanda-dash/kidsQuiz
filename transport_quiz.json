@@ -1,0 +1,47 @@
+[
+  {
+    "question": "I have two wheels and you pedal me to move. What am I?",
+    "options": [
+      {"value": "car", "text": "Car"},
+      {"value": "bicycle", "text": "Bicycle"},
+      {"value": "bus", "text": "Bus"}
+    ],
+    "correctAnswer": "bicycle"
+  },
+  {
+    "question": "I fly in the sky and carry people far away. What am I?",
+    "options": [
+      {"value": "train", "text": "Train"},
+      {"value": "airplane", "text": "Airplane"},
+      {"value": "boat", "text": "Boat"}
+    ],
+    "correctAnswer": "airplane"
+  },
+  {
+    "question": "I float on water and can be rowed or have a motor. What am I?",
+    "options": [
+      {"value": "boat", "text": "Boat"},
+      {"value": "car", "text": "Car"},
+      {"value": "bicycle", "text": "Bicycle"}
+    ],
+    "correctAnswer": "boat"
+  },
+  {
+    "question": "I have many wheels and carry lots of people in the city. What am I?",
+    "options": [
+      {"value": "bus", "text": "Bus"},
+      {"value": "bicycle", "text": "Bicycle"},
+      {"value": "motorcycle", "text": "Motorcycle"}
+    ],
+    "correctAnswer": "bus"
+  },
+  {
+    "question": "I run on tracks and can be very long. What am I?",
+    "options": [
+      {"value": "train", "text": "Train"},
+      {"value": "car", "text": "Car"},
+      {"value": "airplane", "text": "Airplane"}
+    ],
+    "correctAnswer": "train"
+  }
+]

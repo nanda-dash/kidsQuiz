@@ -1,0 +1,47 @@
+[
+  {
+    "question": "I am a round ball used in soccer. What am I?",
+    "options": [
+      {"value": "basketball", "text": "Basketball"},
+      {"value": "soccer ball", "text": "Soccer Ball"},
+      {"value": "tennis ball", "text": "Tennis Ball"}
+    ],
+    "correctAnswer": "soccer ball"
+  },
+  {
+    "question": "I am a sport played on ice with sticks and a puck. What am I?",
+    "options": [
+      {"value": "hockey", "text": "Hockey"},
+      {"value": "basketball", "text": "Basketball"},
+      {"value": "baseball", "text": "Baseball"}
+    ],
+    "correctAnswer": "hockey"
+  },
+  {
+    "question": "I am a net game played with a shuttlecock. What am I?",
+    "options": [
+      {"value": "badminton", "text": "Badminton"},
+      {"value": "volleyball", "text": "Volleyball"},
+      {"value": "soccer", "text": "Soccer"}
+    ],
+    "correctAnswer": "badminton"
+  },
+  {
+    "question": "I am a sport where you swim, bike, and run. What am I?",
+    "options": [
+      {"value": "triathlon", "text": "Triathlon"},
+      {"value": "marathon", "text": "Marathon"},
+      {"value": "cycling", "text": "Cycling"}
+    ],
+    "correctAnswer": "triathlon"
+  },
+  {
+    "question": "I am a sport where you hit a small white ball into holes in the ground. What am I?",
+    "options": [
+      {"value": "golf", "text": "Golf"},
+      {"value": "tennis", "text": "Tennis"},
+      {"value": "cricket", "text": "Cricket"}
+    ],
+    "correctAnswer": "golf"
+  }
+]

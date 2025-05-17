@@ -1,0 +1,47 @@
+[
+  {
+    "question": "I am white and fall from the sky in winter. What am I?",
+    "options": [
+      {"value": "rain", "text": "Rain"},
+      {"value": "snow", "text": "Snow"},
+      {"value": "cloud", "text": "Cloud"}
+    ],
+    "correctAnswer": "snow"
+  },
+  {
+    "question": "I am hot and bright and shine in the sky. What am I?",
+    "options": [
+      {"value": "sun", "text": "Sun"},
+      {"value": "rain", "text": "Rain"},
+      {"value": "wind", "text": "Wind"}
+    ],
+    "correctAnswer": "sun"
+  },
+  {
+    "question": "I am gray and cover the sky, sometimes bringing rain. What am I?",
+    "options": [
+      {"value": "cloud", "text": "Cloud"},
+      {"value": "snow", "text": "Snow"},
+      {"value": "sun", "text": "Sun"}
+    ],
+    "correctAnswer": "cloud"
+  },
+  {
+    "question": "I blow and make trees sway. What am I?",
+    "options": [
+      {"value": "wind", "text": "Wind"},
+      {"value": "rain", "text": "Rain"},
+      {"value": "snow", "text": "Snow"}
+    ],
+    "correctAnswer": "wind"
+  },
+  {
+    "question": "I am wet and fall from the sky as drops. What am I?",
+    "options": [
+      {"value": "rain", "text": "Rain"},
+      {"value": "snow", "text": "Snow"},
+      {"value": "cloud", "text": "Cloud"}
+    ],
+    "correctAnswer": "rain"
+  }
+]
