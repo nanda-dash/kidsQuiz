@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": [
+      { "text": "Leonardo da Vinci", "value": "leonardo da vinci" },
+      { "text": "Vincent van Gogh", "value": "vincent van gogh" },
+      { "text": "Pablo Picasso", "value": "pablo picasso" }
+    ],
+    "correctAnswer": "leonardo da vinci"
+  },
+  {
+    "question": "What is the primary color of the sky in a clear day?",
+    "options": [
+      { "text": "Blue", "value": "blue" },
+      { "text": "Green", "value": "green" },
+      { "text": "Yellow", "value": "yellow" }
+    ],
+    "correctAnswer": "blue"
+  }
+]

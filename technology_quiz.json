@@ -1,0 +1,20 @@
+[
+  {
+    "question": "What does CPU stand for?",
+    "options": [
+      { "text": "Central Processing Unit", "value": "central processing unit" },
+      { "text": "Computer Processing Unit", "value": "computer processing unit" },
+      { "text": "Central Power Unit", "value": "central power unit" }
+    ],
+    "correctAnswer": "central processing unit"
+  },
+  {
+    "question": "What is the name of the first electronic computer?",
+    "options": [
+      { "text": "ENIAC", "value": "eniac" },
+      { "text": "UNIVAC", "value": "univac" },
+      { "text": "IBM", "value": "ibm" }
+    ],
+    "correctAnswer": "eniac"
+  }
+]

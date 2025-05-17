@@ -1,0 +1,20 @@
+[
+  {
+    "question": "What is the largest organ in the human body?",
+    "options": [
+      { "text": "Skin", "value": "skin" },
+      { "text": "Liver", "value": "liver" },
+      { "text": "Heart", "value": "heart" }
+    ],
+    "correctAnswer": "skin"
+  },
+  {
+    "question": "How many bones are in the adult human body?",
+    "options": [
+      { "text": "206", "value": "206" },
+      { "text": "208", "value": "208" },
+      { "text": "210", "value": "210" }
+    ],
+    "correctAnswer": "206"
+  }
+]

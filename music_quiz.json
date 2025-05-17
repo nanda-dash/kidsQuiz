@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Which instrument has 88 keys?",
+    "options": [
+      { "text": "Piano", "value": "piano" },
+      { "text": "Guitar", "value": "guitar" },
+      { "text": "Violin", "value": "violin" }
+    ],
+    "correctAnswer": "piano"
+  },
+  {
+    "question": "Who is known as the King of Pop?",
+    "options": [
+      { "text": "Michael Jackson", "value": "michael jackson" },
+      { "text": "Elvis Presley", "value": "elvis presley" },
+      { "text": "Freddie Mercury", "value": "freddie mercury" }
+    ],
+    "correctAnswer": "michael jackson"
+  }
+]

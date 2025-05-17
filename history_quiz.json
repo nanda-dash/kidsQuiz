@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Who was the first President of the United States?",
+    "options": [
+      { "text": "George Washington", "value": "george washington" },
+      { "text": "Abraham Lincoln", "value": "abraham lincoln" },
+      { "text": "Thomas Jefferson", "value": "thomas jefferson" }
+    ],
+    "correctAnswer": "george washington"
+  },
+  {
+    "question": "In which year did World War II end?",
+    "options": [
+      { "text": "1945", "value": "1945" },
+      { "text": "1939", "value": "1939" },
+      { "text": "1950", "value": "1950" }
+    ],
+    "correctAnswer": "1945"
+  }
+]

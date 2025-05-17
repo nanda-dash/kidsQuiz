@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "options": [
+      { "text": "William Shakespeare", "value": "william shakespeare" },
+      { "text": "Charles Dickens", "value": "charles dickens" },
+      { "text": "Jane Austen", "value": "jane austen" }
+    ],
+    "correctAnswer": "william shakespeare"
+  },
+  {
+    "question": "What is the name of the wizard in 'The Hobbit'?",
+    "options": [
+      { "text": "Gandalf", "value": "gandalf" },
+      { "text": "Dumbledore", "value": "dumbledore" },
+      { "text": "Merlin", "value": "merlin" }
+    ],
+    "correctAnswer": "gandalf"
+  }
+]

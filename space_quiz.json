@@ -1,0 +1,20 @@
+[
+  {
+    "question": "What is the largest planet in our solar system?",
+    "options": [
+      { "text": "Jupiter", "value": "jupiter" },
+      { "text": "Saturn", "value": "saturn" },
+      { "text": "Earth", "value": "earth" }
+    ],
+    "correctAnswer": "jupiter"
+  },
+  {
+    "question": "What is the name of the galaxy we live in?",
+    "options": [
+      { "text": "Milky Way", "value": "milky way" },
+      { "text": "Andromeda", "value": "andromeda" },
+      { "text": "Triangulum", "value": "triangulum" }
+    ],
+    "correctAnswer": "milky way"
+  }
+]

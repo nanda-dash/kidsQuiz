@@ -1,0 +1,20 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "options": [
+      { "text": "Paris", "value": "paris" },
+      { "text": "London", "value": "london" },
+      { "text": "Berlin", "value": "berlin" }
+    ],
+    "correctAnswer": "paris"
+  },
+  {
+    "question": "Which continent is the Sahara Desert located on?",
+    "options": [
+      { "text": "Africa", "value": "africa" },
+      { "text": "Asia", "value": "asia" },
+      { "text": "Australia", "value": "australia" }
+    ],
+    "correctAnswer": "africa"
+  }
+]

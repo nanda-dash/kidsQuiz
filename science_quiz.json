@@ -1,0 +1,20 @@
+[
+  {
+    "question": "What planet is known as the Red Planet?",
+    "options": [
+      { "text": "Mars", "value": "mars" },
+      { "text": "Venus", "value": "venus" },
+      { "text": "Jupiter", "value": "jupiter" }
+    ],
+    "correctAnswer": "mars"
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "options": [
+      { "text": "H2O", "value": "h2o" },
+      { "text": "O2", "value": "o2" },
+      { "text": "CO2", "value": "co2" }
+    ],
+    "correctAnswer": "h2o"
+  }
+]
