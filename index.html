@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Vocabulary Puzzle Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif; /* Use the fun font */
+            background: linear-gradient(to bottom, #80deea, #e0f7fa); /* Gradient background */
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            min-height: 100vh; /* Ensure full height */
+            margin: 0;
+        }
+        .quiz-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 25px; /* More rounded corners */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+            max-width: 700px;
+            width: 100%;
+            margin-top: 20px;
+            box-sizing: border-box; /* Include padding in width */
+        }
+        h1 {
+            color: #00796b;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5em; /* Larger title */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add text shadow */
+        }
+        .question {
+            margin-bottom: 30px; /* More space between questions */
+            padding-bottom: 20px;
+            border-bottom: 2px dashed #b2dfdb; /* Dashed border */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .question:last-child {
+             border-bottom: none; /* No border on the last question */
+        }
+        .question p {
+            font-size: 1.2em; /* Larger text */
+            margin-bottom: 15px;
+            text-align: center;
+            line-height: 1.5; /* Improve readability */
+        }
+        .options {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Align options to the left */
+            width: 100%;
+            max-width: 300px; /* Limit options width */
+            margin-top: 10px;
+        }
+        .options label {
+            font-size: 1.1em;
+            margin-bottom: 8px; /* Space between options */
+            cursor: pointer;
+            display: flex; /* Align radio button and text */
+            align-items: center;
+        }
+        .options input[type="radio"] {
+            margin-right: 8px; /* Space between radio button and text */
+        }
+
+        .feedback {
+            margin-top: 8px; /* More space above feedback */
+            font-size: 1em;
+            min-height: 1.5em; /* Reserve more space */
+            text-align: center;
+            width: 100%; /* Ensure feedback takes full width */
+        }
+        .correct {
+            color: #388e3c; /* Green */
+            font-weight: bold;
+        }
+        .incorrect {
+            color: #d32f2f; /* Red */
+            font-weight: bold;
+        }
+        button {
+            display: block;
+            width: 250px; /* Wider button */
+            margin: 30px auto; /* More margin */
+            padding: 12px 20px; /* More padding */
+            background: linear-gradient(to right, #00bcd4, #00796b); /* Gradient button */
+            color: white;
+            border: none;
+            border-radius: 25px; /* Rounded button */
+            font-size: 1.3em; /* Larger font */
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.1s ease; /* Smooth transitions */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Button shadow */
+        }
+        button:hover {
+            background: linear-gradient(to right, #00796b, #004d40); /* Darker gradient on hover */
+            transform: translateY(-2px); /* Lift button slightly on hover */
+        }
+         button:active {
+             transform: translateY(0); /* Press effect */
+             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+         }
+        .results {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 1.5em; /* Larger score font */
+            color: #00796b;
+            min-height: 60px; /* Reserve more space */
+            font-weight: bold;
+        }
+        .celebration {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 1.8em; /* Larger celebration font */
+            color: #fbc02d; /* Yellow/Gold */
+            font-weight: bold;
+            animation: pulse 1.5s infinite; /* Add a pulse animation */
+        }
+        .celebration img {
+             max-width: 180px; /* Larger celebration image */
+             margin-top: 20px;
+             animation: bounce 1s infinite; /* Add a bounce animation to the image */
+        }
+
+        /* Keyframe animations */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-20px); }
+            60% { transform: translateY(-10px); }
+        }
+
+         /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .quiz-container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .question p {
+                font-size: 1.1em;
+            }
+             .options {
+                 max-width: none;
+                 align-items: center;
+             }
+            button {
+                width: 100%;
+                font-size: 1.1em;
+            }
+             .results {
+                 font-size: 1.3em;
+             }
+             .celebration {
+                 font-size: 1.5em;
+             }
+             .celebration img {
+                 max-width: 120px;
+             }
+        }
+
+    </style>
+</head>
+<body>
+
+    <audio id="backgroundMusic" autoplay loop volume="0.5"> <source src="background_music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="quiz-container">
+        <h1>Kids Vocabulary Puzzle Quiz!</h1>
+        <p style="text-align: center; margin-bottom: 25px;">Choose the correct word for each clue!</p>
+
+        <div id="quizQuestions">
+            </div>
+
+        <button onclick="checkAnswers()">Check Your Answers!</button>
+
+        <div class="results" id="quizResults"></div>
+        <div class="celebration" id="quizCelebration"></div>
+
+    </div>
+
+    <script>
+        let quizData = []; // Variable to store the quiz data from the JSON file
+
+        // Function to fetch quiz data from the JSON file
+        async function loadQuizData() {
+            try {
+                const response = await fetch('quiz_data.json'); // Fetch the JSON file
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                quizData = await response.json(); // Parse the JSON data
+                displayQuestions(); // Once data is loaded, display the questions
+            } catch (error) {
+                console.error('Error loading quiz data:', error);
+                document.getElementById('quizQuestions').innerHTML = '<p>Error loading quiz questions. Please try again later.</p>';
+            }
+        }
+
+        // Function to dynamically display the questions
+        function displayQuestions() {
+            const quizQuestionsDiv = document.getElementById('quizQuestions');
+            quizQuestionsDiv.innerHTML = ''; // Clear any existing content
+
+            quizData.forEach((question, index) => {
+                const questionElement = document.createElement('div');
+                questionElement.classList.add('question');
+                questionElement.id = `q${index + 1}`; // Assign a unique ID
+
+                const questionText = document.createElement('p');
+                questionText.textContent = question.question;
+                questionElement.appendChild(questionText);
+
+                const optionsDiv = document.createElement('div');
+                optionsDiv.classList.add('options');
+
+                question.options.forEach(option => {
+                    const label = document.createElement('label');
+                    const radioInput = document.createElement('input');
+                    radioInput.type = 'radio';
+                    radioInput.name = `q${index + 1}_answer`; // Unique name for each question's radio group
+                    radioInput.value = option.value;
+
+                    label.appendChild(radioInput);
+                    label.appendChild(document.createTextNode(option.text)); // Add option text
+
+                    optionsDiv.appendChild(label);
+                });
+
+                questionElement.appendChild(optionsDiv);
+
+                const feedbackDiv = document.createElement('div');
+                feedbackDiv.classList.add('feedback');
+                feedbackDiv.id = `feedback${index + 1}`; // Unique ID for feedback
+                questionElement.appendChild(feedbackDiv);
+
+                quizQuestionsDiv.appendChild(questionElement);
+            });
+        }
+
+        // Function to check the user's answers
+        function checkAnswers() {
+            let score = 0; // Initialize score
+            const totalQuestions = quizData.length; // Get total number of questions from loaded data
+            const resultsDiv = document.getElementById('quizResults'); // Get results display area
+            const celebrationDiv = document.getElementById('quizCelebration'); // Get celebration area
+
+            // Clear previous feedback, results, and celebration messages
+            resultsDiv.innerHTML = '';
+            celebrationDiv.innerHTML = '';
+            document.querySelectorAll('.feedback').forEach(fb => fb.innerHTML = ''); // Clear feedback messages
+
+
+            // Loop through each question to check the answer
+            quizData.forEach((question, index) => {
+                const questionName = `q${index + 1}_answer`; // Name of the radio button group
+                const feedbackId = `feedback${index + 1}`; // ID of the feedback div
+                const feedbackElement = document.getElementById(feedbackId); // Get the feedback element
+
+                // Get the selected radio button for the current question
+                const selectedOption = document.querySelector(`input[name="${questionName}"]:checked`);
+
+                let userInput = '';
+                if (selectedOption) {
+                    userInput = selectedOption.value.toLowerCase().trim(); // Get the value if an option is selected
+                }
+
+                const correctAnswer = question.correctAnswer.toLowerCase().trim(); // Get the correct answer from loaded data
+
+                // Compare user input with the correct answer
+                if (userInput === correctAnswer) {
+                    score++; // Increment score if correct
+                    feedbackElement.innerHTML = 'Correct!'; // Display correct feedback
+                    feedbackElement.className = 'feedback correct'; // Add 'correct' class for styling
+                } else if (userInput === '') {
+                     // Handle case where no option was selected
+                     feedbackElement.innerHTML = 'Please select an answer.';
+                     feedbackElement.className = 'feedback incorrect'; // Use incorrect styling for not answered
+                }
+                else {
+                    feedbackElement.innerHTML = `Oops! The answer was: ${correctAnswer.charAt(0).toUpperCase() + correctAnswer.slice(1)}`; // Display incorrect feedback with correct answer
+                    feedbackElement.className = 'feedback incorrect'; // Add 'incorrect' class for styling
+                }
+
+                // Optionally disable radio buttons after checking
+                document.querySelectorAll(`input[name="${questionName}"]`).forEach(radio => {
+                    radio.disabled = true;
+                });
+            });
+
+
+            // Display the final score
+            resultsDiv.innerHTML = `You got ${score} out of ${totalQuestions} correct!`;
+
+            // Display a celebration message based on the score
+            if (score === totalQuestions) {
+                // Perfect score celebration
+                celebrationDiv.innerHTML = `Amazing job! You are a vocabulary star! ✨🎉 <br> <img src="happy.png" alt="Celebration image">`; // You could use a different celebration image here
+            } else if (score >= totalQuestions / 2) {
+                 // Good effort message
+                 celebrationDiv.innerHTML = `Great effort! Keep practicing and you'll get even better! 👍`;
+            } else {
+                 // Encouragement message
+                 celebrationDiv.innerHTML = `Nice try! Keep learning new words! 😊`;
+            }
+             celebrationDiv.style.marginTop = '20px'; // Add some space above the celebration message
+        }
+
+        // Load the quiz data when the page loads
+        window.onload = loadQuizData;
+
+    </script>
+
+</body>
+</html>

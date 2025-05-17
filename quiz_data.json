@@ -1,0 +1,92 @@
+[
+  {
+    "question": "I am a sweet fruit that is often red or green. Snow White took a bite of me! What am I?",
+    "options": [
+      {"value": "banana", "text": "Banana"},
+      {"value": "apple", "text": "Apple"},
+      {"value": "grape", "text": "Grape"}
+    ],
+    "correctAnswer": "apple"
+  },
+  {
+    "question": "I am a big, yellow star that gives us light and warmth during the day. What am I?",
+    "options": [
+      {"value": "moon", "text": "Moon"},
+      {"value": "star", "text": "Star"},
+      {"value": "sun", "text": "Sun"}
+    ],
+    "correctAnswer": "sun"
+  },
+  {
+    "question": "I am a furry animal that says \"meow\" and likes to chase mice. What am I?",
+    "options": [
+      {"value": "dog", "text": "Dog"},
+      {"value": "cat", "text": "Cat"},
+      {"value": "bird", "text": "Bird"}
+    ],
+    "correctAnswer": "cat"
+  },
+  {
+    "question": "I am an animal that says \"woof woof\" and loves to play fetch. I am often called \"man's best friend.\" What am I?",
+    "options": [
+      {"value": "cat", "text": "Cat"},
+      {"value": "fish", "text": "Fish"},
+      {"value": "dog", "text": "Dog"}
+    ],
+    "correctAnswer": "dog"
+  },
+  {
+    "question": "I have pages and words inside. You can read stories and learn new things from me. What am I?",
+    "options": [
+      {"value": "toy", "text": "Toy"},
+      {"value": "book", "text": "Book"},
+      {"value": "pencil", "text": "Pencil"}
+    ],
+    "correctAnswer": "book"
+  },
+  {
+    "question": "I am a building where families live. I have walls, a roof, and doors. What am I?",
+    "options": [
+      {"value": "school", "text": "School"},
+      {"value": "store", "text": "Store"},
+      {"value": "house", "text": "House"}
+    ],
+    "correctAnswer": "house"
+  },
+  {
+    "question": "I have wheels and can take you places on the road. You might ride in me to go to the store or school. What am I?",
+    "options": [
+      {"value": "boat", "text": "Boat"},
+      {"value": "car", "text": "Car"},
+      {"value": "plane", "text": "Plane"}
+    ],
+    "correctAnswer": "car"
+  },
+  {
+    "question": "I am round and you can bounce me, throw me, or kick me when you play. What am I?",
+    "options": [
+      {"value": "box", "text": "Box"},
+      {"value": "ball", "text": "Ball"},
+      {"value": "stick", "text": "Stick"}
+    ],
+    "correctAnswer": "ball"
+  },
+  {
+    "question": "I am a person you like to spend time with, play with, and talk to. What am I?",
+    "options": [
+      {"value": "teacher", "text": "Teacher"},
+      {"value": "stranger", "text": "Stranger"},
+      {"value": "friend", "text": "Friend"}
+    ],
+    "correctAnswer": "friend"
+  },
+  {
+    "question": "This is how you feel when you are full of joy and smiling a lot! What is this feeling?",
+    "options": [
+      {"value": "sad", "text": "Sad"},
+      {"value": "angry", "text": "Angry"},
+      {"value": "happy", "text": "Happy"}
+    ],
+    "correctAnswer": "happy"
+  }
+]
