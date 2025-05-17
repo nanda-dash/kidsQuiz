@@ -1,1 +1,48 @@
+[
+  {
+    "question": "I am a round, red fruit that is often used to make ketchup and sauce. What am I?",
+    "options": [
+      {"value": "apple", "text": "Apple"},
+      {"value": "tomato", "text": "Tomato"},
+      {"value": "strawberry", "text": "Strawberry"}
+    ],
+    "correctAnswer": "tomato"
+  },
+  {
+    "question": "I am a long, yellow fruit that monkeys love to eat. What am I?",
+    "options": [
+      {"value": "grape", "text": "Grape"},
+      {"value": "banana", "text": "Banana"},
+      {"value": "lemon", "text": "Lemon"}
+    ],
+    "correctAnswer": "banana"
+  },
+  {
+    "question": "I am a cold, sweet treat that comes in many flavors, like chocolate and vanilla. What am I?",
+    "options": [
+      {"value": "cake", "text": "Cake"},
+      {"value": "candy", "text": "Candy"},
+      {"value": "ice cream", "text": "Ice Cream"}
+    ],
+    "correctAnswer": "ice cream"
+  },
+  {
+    "question": "I am a warm, soft bread often served in slices. You can make sandwiches with me. What am I?",
+    "options": [
+      {"value": "rice", "text": "Rice"},
+      {"value": "pasta", "text": "Pasta"},
+      {"value": "bread", "text": "Bread"}
+    ],
+    "correctAnswer": "bread"
+  },
+  {
+    "question": "I am a green vegetable that looks like little trees. What am I?",
+    "options": [
+      {"value": "carrot", "text": "Carrot"},
+      {"value": "broccoli", "text": "Broccoli"},
+      {"value": "pea", "text": "Pea"}
+    ],
+    "correctAnswer": "broccoli"
+  }
+]
 
