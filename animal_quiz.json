@@ -1,0 +1,47 @@
+[
+  {
+    "question": "I have a long neck and love to eat leaves from tall trees. What am I?",
+    "options": [
+      {"value": "elephant", "text": "Elephant"},
+      {"value": "giraffe", "text": "Giraffe"},
+      {"value": "zebra", "text": "Zebra"}
+    ],
+    "correctAnswer": "giraffe"
+  },
+  {
+    "question": "I am known as the 'king of the jungle' and have a magnificent mane. What am I?",
+    "options": [
+      {"value": "tiger", "text": "Tiger"},
+      {"value": "bear", "text": "Bear"},
+      {"value": "lion", "text": "Lion"}
+    ],
+    "correctAnswer": "lion"
+  },
+  {
+    "question": "I am a black and white striped animal that looks like a horse. What am I?",
+    "options": [
+      {"value": "panda", "text": "Panda"},
+      {"value": "zebra", "text": "Zebra"},
+      {"value": "penguin", "text": "Penguin"}
+    ],
+    "correctAnswer": "zebra"
+  },
+  {
+    "question": "I am a large ocean animal that spouts water from a blowhole. What am I?",
+    "options": [
+      {"value": "shark", "text": "Shark"},
+      {"value": "dolphin", "text": "Dolphin"},
+      {"value": "whale", "text": "Whale"}
+    ],
+    "correctAnswer": "whale"
+  },
+  {
+    "question": "I am a small, busy insect that makes honey. What am I?",
+    "options": [
+      {"value": "ant", "text": "Ant"},
+      {"value": "spider", "text": "Spider"},
+      {"value": "bee", "text": "Bee"}
+    ],
+    "correctAnswer": "bee"
+  }
+]
