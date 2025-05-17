@@ -6,6 +6,7 @@
     <title>Kids Vocabulary Puzzle Quiz</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        /* Default Theme (Bright) */
         body {
             font-family: 'Nunito', sans-serif; /* Use the fun font */
             background: linear-gradient(to bottom, #80deea, #e0f7fa); /* Gradient background */
@@ -16,6 +17,7 @@
             padding: 20px;
             min-height: 100vh; /* Ensure full height */
             margin: 0;
+            transition: background 0.5s ease; /* Smooth background transition */
         }
         .quiz-container {
             background-color: #ffffff;
@@ -26,6 +28,7 @@
             width: 100%;
             margin-top: 20px;
             box-sizing: border-box; /* Include padding in width */
+             transition: background-color 0.5s ease, box-shadow 0.5s ease; /* Smooth transition */
         }
         h1 {
             color: #00796b;
@@ -33,23 +36,26 @@
             margin-bottom: 20px;
             font-size: 2.5em; /* Larger title */
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add text shadow */
+             transition: color 0.5s ease; /* Smooth transition */
         }
-        .quiz-selector {
+        .quiz-selector, .theme-selector {
             text-align: center;
             margin-bottom: 20px;
             font-size: 1.1em;
         }
-        .quiz-selector label {
+         .quiz-selector label, .theme-selector label {
             margin-right: 10px;
             font-weight: bold;
             color: #00796b;
+             transition: color 0.5s ease; /* Smooth transition */
         }
-        .quiz-selector select {
+         .quiz-selector select, .theme-selector select {
             padding: 8px;
             border-radius: 5px;
             border: 1px solid #00796b;
             font-size: 1em;
             cursor: pointer;
+             transition: border-color 0.5s ease; /* Smooth transition */
         }
         .question {
             margin-bottom: 30px; /* More space between questions */
@@ -131,6 +137,7 @@
             color: #00796b;
             min-height: 60px; /* Reserve more space */
             font-weight: bold;
+             transition: color 0.5s ease; /* Smooth transition */
         }
         .celebration {
             margin-top: 20px;
@@ -139,6 +146,7 @@
             color: #fbc02d; /* Yellow/Gold */
             font-weight: bold;
             animation: pulse 1.5s infinite; /* Add a pulse animation */
+             transition: color 0.5s ease; /* Smooth transition */
         }
         .celebration img {
              max-width: 180px; /* Larger celebration image */
@@ -158,6 +166,65 @@
             40% { transform: translateY(-20px); }
             60% { transform: translateY(-10px); }
         }
+
+         /* --- Theme Styles --- */
+         /* Pastel Theme */
+        body.theme-pastel {
+            background: linear-gradient(to bottom, #ffccbc, #ffe0b2);
+            color: #5d4037;
+        }
+        .theme-pastel .quiz-container {
+            background-color: #fff3e0;
+            box-shadow: 0 8px 16px rgba(93, 64, 55, 0.2);
+        }
+        .theme-pastel h1, .theme-pastel .quiz-selector label, .theme-pastel .theme-selector label, .theme-pastel .results {
+            color: #f48fb1; /* Pink */
+        }
+         .theme-pastel .quiz-selector select, .theme-pastel .theme-selector select {
+             border-color: #f48fb1;
+         }
+        .theme-pastel .question {
+             border-bottom: 2px dashed #ffab91; /* Lighter dashed border */
+        }
+        .theme-pastel button {
+            background: linear-gradient(to right, #f48fb1, #e57373); /* Pink/Red gradient */
+        }
+         .theme-pastel button:hover {
+             background: linear-gradient(to right, #e57373, #ef5350);
+         }
+         .theme-pastel .celebration {
+             color: #ffccbc; /* Lighter yellow */
+         }
+
+
+         /* Nature Theme */
+         body.theme-nature {
+             background: linear-gradient(to bottom, #a5d6a7, #c8e6c9);
+             color: #1b5e20; /* Dark green */
+         }
+         .theme-nature .quiz-container {
+             background-color: #e8f5e9;
+             box-shadow: 0 8px 16px rgba(27, 94, 32, 0.2);
+         }
+         .theme-nature h1, .theme-nature .quiz-selector label, .theme-nature .theme-selector label, .theme-nature .results {
+             color: #388e3c; /* Medium green */
+         }
+         .theme-nature .quiz-selector select, .theme-nature .theme-selector select {
+             border-color: #388e3c;
+         }
+         .theme-nature .question {
+             border-bottom: 2px dashed #81c784; /* Lighter green dashed border */
+         }
+         .theme-nature button {
+             background: linear-gradient(to right, #66bb6a, #43a047); /* Green gradient */
+         }
+          .theme-nature button:hover {
+              background: linear-gradient(to right, #43a047, #2e7d32);
+          }
+          .theme-nature .celebration {
+              color: #fff9c4; /* Light yellow */
+          }
+
 
          /* Responsive adjustments */
         @media (max-width: 600px) {
@@ -205,6 +272,16 @@
             <select id="quizSelect"></select>
         </div>
 
+        <div class="theme-selector">
+            <label for="themeSelect">Choose a Theme:</label>
+            <select id="themeSelect">
+                <option value="default">Bright Theme</option>
+                <option value="pastel">Pastel Theme</option>
+                <option value="nature">Nature Theme</option>
+            </select>
+        </div>
+
+
         <p style="text-align: center; margin-bottom: 25px;">Choose the correct word for each clue!</p>
 
         <div id="quizQuestions">
@@ -219,17 +296,18 @@
 
     <script>
         let quizData = []; // Variable to store the currently loaded quiz data
-        // Define the list of available quiz files  
+        // Define the list of available quiz files
         const quizFiles = [
-             { name: 'Vocabulary Quiz', file: 'quiz_data.json' },
-             { name: 'Animal Quiz', file: 'animal_quiz.json' },
-             { name: 'Food Quiz', file: 'food_quiz.json' }
+            { name: 'Vocabulary Quiz', file: 'quiz_data.json' },
+            { name: 'Animal Quiz', file: 'animal_quiz.json' },
+            { name: 'Food Quiz', file: 'food_quiz.json' }
         ];
 
         // Function to populate the quiz selection dropdown
         function populateQuizSelect() {
             const selectElement = document.getElementById('quizSelect');
-            quizFiles.forEach((quiz, index) => {
+            selectElement.innerHTML = ''; // Clear existing options
+            quizFiles.forEach((quiz) => {
                 const option = document.createElement('option');
                 option.value = quiz.file;
                 option.textContent = quiz.name;
@@ -241,6 +319,31 @@
                 const selectedFile = event.target.value;
                 loadQuizData(selectedFile);
             });
+        }
+
+        // Function to populate the theme selection dropdown and apply theme
+        function setupThemeSelect() {
+            const selectElement = document.getElementById('themeSelect');
+            // Add event listener to change theme when selection changes
+            selectElement.addEventListener('change', (event) => {
+                const selectedTheme = event.target.value;
+                applyTheme(selectedTheme);
+            });
+
+            // Apply the default theme on load
+            applyTheme(selectElement.value);
+        }
+
+        // Function to apply the selected theme
+        function applyTheme(themeName) {
+            const body = document.body;
+            // Remove any existing theme classes
+            body.classList.remove('theme-pastel', 'theme-nature'); // Add more theme classes here
+
+            // Add the selected theme class
+            if (themeName !== 'default') {
+                body.classList.add(`theme-${themeName}`);
+            }
         }
 
 
@@ -371,7 +474,7 @@
             // Display a celebration message based on the score
             if (score === totalQuestions && totalQuestions > 0) { // Ensure there were questions
                 // Perfect score celebration
-                celebrationDiv.innerHTML = `Amazing job! You are a vocabulary star! ✨🎉 `; // You could use a different celebration image here
+                celebrationDiv.innerHTML = `Amazing job! You are a vocabulary star! ✨🎉`; // You could use a different celebration image here
             } else if (score >= totalQuestions / 2 && totalQuestions > 0) {
                  // Good effort message
                  celebrationDiv.innerHTML = `Great effort! Keep practicing and you'll get even better! 👍`;
@@ -382,9 +485,10 @@
              celebrationDiv.style.marginTop = '20px'; // Add some space above the celebration message
         }
 
-        // Load the quiz data and populate the dropdown when the page loads
+        // Load the quiz data and populate the dropdowns when the page loads
         window.onload = () => {
-            populateQuizSelect(); // Populate the dropdown first
+            populateQuizSelect(); // Populate the quiz dropdown
+            setupThemeSelect(); // Setup the theme dropdown and apply default theme
             // Load the first quiz by default
             if (quizFiles.length > 0) {
                 loadQuizData(quizFiles[0].file);
