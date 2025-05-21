@@ -1,0 +1,92 @@
+[
+  {
+    "question": "I am used to sit on, and I have four legs and a back. What am I?",
+    "options": [
+      {"value": "chair", "text": "Chair"},
+      {"value": "table", "text": "Table"},
+      {"value": "bed", "text": "Bed"}
+    ],
+    "correctAnswer": "chair"
+  },
+  {
+    "question": "I am where you sleep at night. What am I?",
+    "options": [
+      {"value": "couch", "text": "Couch"},
+      {"value": "bed", "text": "Bed"},
+      {"value": "closet", "text": "Closet"}
+    ],
+    "correctAnswer": "bed"
+  },
+  {
+    "question": "I have a flat surface and four legs where you can eat meals. What am I?",
+    "options": [
+      {"value": "chair", "text": "Chair"},
+      {"value": "table", "text": "Table"},
+      {"value": "desk", "text": "Desk"}
+    ],
+    "correctAnswer": "table"
+  },
+  {
+    "question": "I show your reflection when you look at me. What am I?",
+    "options": [
+      {"value": "window", "text": "Window"},
+      {"value": "television", "text": "Television"},
+      {"value": "mirror", "text": "Mirror"}
+    ],
+    "correctAnswer": "mirror"
+  },
+  {
+    "question": "I am like a small table where you can write or do homework. What am I?",
+    "options": [
+      {"value": "shelf", "text": "Shelf"},
+      {"value": "desk", "text": "Desk"},
+      {"value": "chair", "text": "Chair"}
+    ],
+    "correctAnswer": "desk"
+  },
+  {
+    "question": "I let light and air come into a room and you can see outside through me. What am I?",
+    "options": [
+      {"value": "door", "text": "Door"},
+      {"value": "window", "text": "Window"},
+      {"value": "lamp", "text": "Lamp"}
+    ],
+    "correctAnswer": "window"
+  },
+  {
+    "question": "I hold books and other items on my flat surfaces. What am I?",
+    "options": [
+      {"value": "shelf", "text": "Shelf"},
+      {"value": "rug", "text": "Rug"},
+      {"value": "pillow", "text": "Pillow"}
+    ],
+    "correctAnswer": "shelf"
+  },
+  {
+    "question": "I am soft and you rest your head on me when you sleep. What am I?",
+    "options": [
+      {"value": "blanket", "text": "Blanket"},
+      {"value": "pillow", "text": "Pillow"},
+      {"value": "mattress", "text": "Mattress"}
+    ],
+    "correctAnswer": "pillow"
+  },
+  {
+    "question": "I cover the floor and make it soft to walk on. What am I?",
+    "options": [
+      {"value": "curtain", "text": "Curtain"},
+      {"value": "rug", "text": "Rug"},
+      {"value": "blanket", "text": "Blanket"}
+    ],
+    "correctAnswer": "rug"
+  },
+  {
+    "question": "I help you enter or exit a room. What am I?",
+    "options": [
+      {"value": "window", "text": "Window"},
+      {"value": "door", "text": "Door"},
+      {"value": "wall", "text": "Wall"}
+    ],
+    "correctAnswer": "door"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "question": "I am worn on your feet to keep them warm and comfortable. What am I?",
+    "options": [
+      {"value": "gloves", "text": "Gloves"},
+      {"value": "hat", "text": "Hat"},
+      {"value": "socks", "text": "Socks"}
+    ],
+    "correctAnswer": "socks"
+  },
+  {
+    "question": "I protect your eyes from the sun and have two lenses. What am I?",
+    "options": [
+      {"value": "hat", "text": "Hat"},
+      {"value": "sunglasses", "text": "Sunglasses"},
+      {"value": "scarf", "text": "Scarf"}
+    ],
+    "correctAnswer": "sunglasses"
+  },
+  {
+    "question": "I am worn on your hands to keep them warm in winter. What am I?",
+    "options": [
+      {"value": "mittens", "text": "Mittens"},
+      {"value": "shoes", "text": "Shoes"},
+      {"value": "jacket", "text": "Jacket"}
+    ],
+    "correctAnswer": "mittens"
+  },
+  {
+    "question": "I cover your legs and have two parts for each leg. What am I?",
+    "options": [
+      {"value": "pants", "text": "Pants"},
+      {"value": "shirt", "text": "Shirt"},
+      {"value": "shoes", "text": "Shoes"}
+    ],
+    "correctAnswer": "pants"
+  },
+  {
+    "question": "I keep your top half warm and have sleeves. What am I?",
+    "options": [
+      {"value": "pants", "text": "Pants"},
+      {"value": "shirt", "text": "Shirt"},
+      {"value": "hat", "text": "Hat"}
+    ],
+    "correctAnswer": "shirt"
+  },
+  {
+    "question": "I am worn on your feet when you go outside. What am I?",
+    "options": [
+      {"value": "shoes", "text": "Shoes"},
+      {"value": "gloves", "text": "Gloves"},
+      {"value": "scarf", "text": "Scarf"}
+    ],
+    "correctAnswer": "shoes"
+  },
+  {
+    "question": "I keep your head warm and cover your ears. What am I?",
+    "options": [
+      {"value": "shoes", "text": "Shoes"},
+      {"value": "hat", "text": "Hat"},
+      {"value": "socks", "text": "Socks"}
+    ],
+    "correctAnswer": "hat"
+  },
+  {
+    "question": "I am worn around your neck to keep it warm in winter. What am I?",
+    "options": [
+      {"value": "scarf", "text": "Scarf"},
+      {"value": "belt", "text": "Belt"},
+      {"value": "gloves", "text": "Gloves"}
+    ],
+    "correctAnswer": "scarf"
+  },
+  {
+    "question": "I keep you dry when it rains and usually have a hood. What am I?",
+    "options": [
+      {"value": "raincoat", "text": "Raincoat"},
+      {"value": "sweater", "text": "Sweater"},
+      {"value": "boots", "text": "Boots"}
+    ],
+    "correctAnswer": "raincoat"
+  },
+  {
+    "question": "I am like a small dress that is worn by girls. What am I?",
+    "options": [
+      {"value": "skirt", "text": "Skirt"},
+      {"value": "shirt", "text": "Shirt"},
+      {"value": "pants", "text": "Pants"}
+    ],
+    "correctAnswer": "skirt"
+  }
+]

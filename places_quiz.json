@@ -1,0 +1,92 @@
+[
+  {
+    "question": "I am a place where you can see many animals in cages or enclosures. What am I?",
+    "options": [
+      {"value": "zoo", "text": "Zoo"},
+      {"value": "park", "text": "Park"},
+      {"value": "library", "text": "Library"}
+    ],
+    "correctAnswer": "zoo"
+  },
+  {
+    "question": "I am a place where you can borrow books to read. What am I?",
+    "options": [
+      {"value": "school", "text": "School"},
+      {"value": "library", "text": "Library"},
+      {"value": "museum", "text": "Museum"}
+    ],
+    "correctAnswer": "library"
+  },
+  {
+    "question": "I am a place where you learn and study with other children. What am I?",
+    "options": [
+      {"value": "hospital", "text": "Hospital"},
+      {"value": "school", "text": "School"},
+      {"value": "beach", "text": "Beach"}
+    ],
+    "correctAnswer": "school"
+  },
+  {
+    "question": "I am a place with sand and water where you can swim and build sand castles. What am I?",
+    "options": [
+      {"value": "mountain", "text": "Mountain"},
+      {"value": "beach", "text": "Beach"},
+      {"value": "farm", "text": "Farm"}
+    ],
+    "correctAnswer": "beach"
+  },
+  {
+    "question": "I am a place where people go to buy food and other items. What am I?",
+    "options": [
+      {"value": "store", "text": "Store"},
+      {"value": "cinema", "text": "Cinema"},
+      {"value": "restaurant", "text": "Restaurant"}
+    ],
+    "correctAnswer": "store"
+  },
+  {
+    "question": "I am a place where you can watch movies on a big screen. What am I?",
+    "options": [
+      {"value": "cinema", "text": "Cinema"},
+      {"value": "hospital", "text": "Hospital"},
+      {"value": "playground", "text": "Playground"}
+    ],
+    "correctAnswer": "cinema"
+  },
+  {
+    "question": "I am a place where doctors help sick people get better. What am I?",
+    "options": [
+      {"value": "park", "text": "Park"},
+      {"value": "hospital", "text": "Hospital"},
+      {"value": "zoo", "text": "Zoo"}
+    ],
+    "correctAnswer": "hospital"
+  },
+  {
+    "question": "I am a place where you can swing, slide, and play with other children. What am I?",
+    "options": [
+      {"value": "library", "text": "Library"},
+      {"value": "playground", "text": "Playground"},
+      {"value": "museum", "text": "Museum"}
+    ],
+    "correctAnswer": "playground"
+  },
+  {
+    "question": "I am a place where you can see old and interesting objects from the past. What am I?",
+    "options": [
+      {"value": "museum", "text": "Museum"},
+      {"value": "farm", "text": "Farm"},
+      {"value": "store", "text": "Store"}
+    ],
+    "correctAnswer": "museum"
+  },
+  {
+    "question": "I am a place where you can eat food that someone else has cooked for you. What am I?",
+    "options": [
+      {"value": "cinema", "text": "Cinema"},
+      {"value": "restaurant", "text": "Restaurant"},
+      {"value": "school", "text": "School"}
+    ],
+    "correctAnswer": "restaurant"
+  }
+]

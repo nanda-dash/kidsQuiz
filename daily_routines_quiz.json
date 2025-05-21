@@ -1,0 +1,92 @@
+[
+  {
+    "question": "I am what you do with a toothbrush and toothpaste in the morning and before bed. What am I?",
+    "options": [
+      {"value": "brushing_teeth", "text": "Brushing teeth"},
+      {"value": "taking_bath", "text": "Taking a bath"},
+      {"value": "eating_breakfast", "text": "Eating breakfast"}
+    ],
+    "correctAnswer": "brushing_teeth"
+  },
+  {
+    "question": "I am the first meal you eat in the morning. What am I?",
+    "options": [
+      {"value": "lunch", "text": "Lunch"},
+      {"value": "breakfast", "text": "Breakfast"},
+      {"value": "dinner", "text": "Dinner"}
+    ],
+    "correctAnswer": "breakfast"
+  },
+  {
+    "question": "I am what you do in bed at night with your eyes closed. What am I?",
+    "options": [
+      {"value": "sleeping", "text": "Sleeping"},
+      {"value": "reading", "text": "Reading"},
+      {"value": "playing", "text": "Playing"}
+    ],
+    "correctAnswer": "sleeping"
+  },
+  {
+    "question": "I am what you do with soap and water to get clean. What am I?",
+    "options": [
+      {"value": "eating", "text": "Eating"},
+      {"value": "bathing", "text": "Bathing"},
+      {"value": "dressing", "text": "Getting dressed"}
+    ],
+    "correctAnswer": "bathing"
+  },
+  {
+    "question": "I am the meal you eat in the middle of the day. What am I?",
+    "options": [
+      {"value": "breakfast", "text": "Breakfast"},
+      {"value": "lunch", "text": "Lunch"},
+      {"value": "snack", "text": "Snack"}
+    ],
+    "correctAnswer": "lunch"
+  },
+  {
+    "question": "I am what you do with a book when you look at the pages and words. What am I?",
+    "options": [
+      {"value": "reading", "text": "Reading"},
+      {"value": "writing", "text": "Writing"},
+      {"value": "drawing", "text": "Drawing"}
+    ],
+    "correctAnswer": "reading"
+  },
+  {
+    "question": "I am what you do with a comb or brush to make your hair neat. What am I?",
+    "options": [
+      {"value": "combing_hair", "text": "Combing hair"},
+      {"value": "washing_hands", "text": "Washing hands"},
+      {"value": "brushing_teeth", "text": "Brushing teeth"}
+    ],
+    "correctAnswer": "combing_hair"
+  },
+  {
+    "question": "I am the meal you eat in the evening. What am I?",
+    "options": [
+      {"value": "breakfast", "text": "Breakfast"},
+      {"value": "lunch", "text": "Lunch"},
+      {"value": "dinner", "text": "Dinner"}
+    ],
+    "correctAnswer": "dinner"
+  },
+  {
+    "question": "I am what you do at school or home when you learn new things. What am I?",
+    "options": [
+      {"value": "studying", "text": "Studying"},
+      {"value": "playing", "text": "Playing"},
+      {"value": "sleeping", "text": "Sleeping"}
+    ],
+    "correctAnswer": "studying"
+  },
+  {
+    "question": "I am what you do to your hands before eating to make them clean. What am I?",
+    "options": [
+      {"value": "drying_hands", "text": "Drying hands"},
+      {"value": "washing_hands", "text": "Washing hands"},
+      {"value": "clapping_hands", "text": "Clapping hands"}
+    ],
+    "correctAnswer": "washing_hands"
+  }
+]

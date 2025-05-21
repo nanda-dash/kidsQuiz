@@ -1,0 +1,92 @@
+[
+  {
+    "question": "I am white and come from cows. What drink am I?",
+    "options": [
+      {"value": "water", "text": "Water"},
+      {"value": "milk", "text": "Milk"},
+      {"value": "juice", "text": "Juice"}
+    ],
+    "correctAnswer": "milk"
+  },
+  {
+    "question": "I am clear, have no color, and you need me every day to live. What drink am I?",
+    "options": [
+      {"value": "soda", "text": "Soda"},
+      {"value": "water", "text": "Water"},
+      {"value": "tea", "text": "Tea"}
+    ],
+    "correctAnswer": "water"
+  },
+  {
+    "question": "I am made from squeezing oranges. What drink am I?",
+    "options": [
+      {"value": "orange_juice", "text": "Orange juice"},
+      {"value": "milk", "text": "Milk"},
+      {"value": "lemonade", "text": "Lemonade"}
+    ],
+    "correctAnswer": "orange_juice"
+  },
+  {
+    "question": "I am made from squeezing lemons and adding sugar and water. What drink am I?",
+    "options": [
+      {"value": "milk", "text": "Milk"},
+      {"value": "lemonade", "text": "Lemonade"},
+      {"value": "hot_chocolate", "text": "Hot chocolate"}
+    ],
+    "correctAnswer": "lemonade"
+  },
+  {
+    "question": "I am a hot drink made from chocolate. What am I?",
+    "options": [
+      {"value": "hot_chocolate", "text": "Hot chocolate"},
+      {"value": "coffee", "text": "Coffee"},
+      {"value": "tea", "text": "Tea"}
+    ],
+    "correctAnswer": "hot_chocolate"
+  },
+  {
+    "question": "I am a bubbly, fizzy drink that often comes in cans. What am I?",
+    "options": [
+      {"value": "water", "text": "Water"},
+      {"value": "milk", "text": "Milk"},
+      {"value": "soda", "text": "Soda"}
+    ],
+    "correctAnswer": "soda"
+  },
+  {
+    "question": "I am made by putting tea leaves in hot water. What drink am I?",
+    "options": [
+      {"value": "coffee", "text": "Coffee"},
+      {"value": "tea", "text": "Tea"},
+      {"value": "milk", "text": "Milk"}
+    ],
+    "correctAnswer": "tea"
+  },
+  {
+    "question": "I am pink and made from strawberries mixed with milk. What drink am I?",
+    "options": [
+      {"value": "strawberry_milkshake", "text": "Strawberry milkshake"},
+      {"value": "lemonade", "text": "Lemonade"},
+      {"value": "orange_juice", "text": "Orange juice"}
+    ],
+    "correctAnswer": "strawberry_milkshake"
+  },
+  {
+    "question": "I am made from apples that have been pressed. What drink am I?",
+    "options": [
+      {"value": "apple_juice", "text": "Apple juice"},
+      {"value": "water", "text": "Water"},
+      {"value": "milk", "text": "Milk"}
+    ],
+    "correctAnswer": "apple_juice"
+  },
+  {
+    "question": "I am a thick drink made from frozen fruit and yogurt blended together. What am I?",
+    "options": [
+      {"value": "soda", "text": "Soda"},
+      {"value": "smoothie", "text": "Smoothie"},
+      {"value": "tea", "text": "Tea"}
+    ],
+    "correctAnswer": "smoothie"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "I keep your food cold and fresh. What am I?",
+    "options": [
+      {"value": "oven", "text": "Oven"},
+      {"value": "refrigerator", "text": "Refrigerator"},
+      {"value": "dishwasher", "text": "Dishwasher"}
+    ],
+    "correctAnswer": "refrigerator"
+  },
+  {
+    "question": "I wash your clothes and make them clean. What am I?",
+    "options": [
+      {"value": "washing_machine", "text": "Washing Machine"},
+      {"value": "vacuum", "text": "Vacuum Cleaner"},
+      {"value": "toaster", "text": "Toaster"}
+    ],
+    "correctAnswer": "washing_machine"
+  },
+  {
+    "question": "I clean your dishes after meals. What am I?",
+    "options": [
+      {"value": "microwave", "text": "Microwave"},
+      {"value": "blender", "text": "Blender"},
+      {"value": "dishwasher", "text": "Dishwasher"}
+    ],
+    "correctAnswer": "dishwasher"
+  },
+  {
+    "question": "I cook food very quickly using waves. What am I?",
+    "options": [
+      {"value": "microwave", "text": "Microwave"},
+      {"value": "stove", "text": "Stove"},
+      {"value": "toaster", "text": "Toaster"}
+    ],
+    "correctAnswer": "microwave"
+  },
+  {
+    "question": "I suck up dirt and dust from your floors. What am I?",
+    "options": [
+      {"value": "iron", "text": "Iron"},
+      {"value": "vacuum", "text": "Vacuum Cleaner"},
+      {"value": "blender", "text": "Blender"}
+    ],
+    "correctAnswer": "vacuum"
+  }
+]

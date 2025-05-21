@@ -1,0 +1,92 @@
+[
+  {
+    "question": "I am a shape with four equal sides and four equal angles. What am I?",
+    "options": [
+      {"value": "rectangle", "text": "Rectangle"},
+      {"value": "square", "text": "Square"},
+      {"value": "triangle", "text": "Triangle"}
+    ],
+    "correctAnswer": "square"
+  },
+  {
+    "question": "I am a shape with three sides and three angles. What am I?",
+    "options": [
+      {"value": "circle", "text": "Circle"},
+      {"value": "triangle", "text": "Triangle"},
+      {"value": "rectangle", "text": "Rectangle"}
+    ],
+    "correctAnswer": "triangle"
+  },
+  {
+    "question": "I am a perfectly round shape with no corners. What am I?",
+    "options": [
+      {"value": "circle", "text": "Circle"},
+      {"value": "oval", "text": "Oval"},
+      {"value": "square", "text": "Square"}
+    ],
+    "correctAnswer": "circle"
+  },
+  {
+    "question": "I am a shape with four sides, but my sides are not all equal. What am I?",
+    "options": [
+      {"value": "triangle", "text": "Triangle"},
+      {"value": "square", "text": "Square"},
+      {"value": "rectangle", "text": "Rectangle"}
+    ],
+    "correctAnswer": "rectangle"
+  },
+  {
+    "question": "I am like a circle but stretched out, not perfectly round. What am I?",
+    "options": [
+      {"value": "square", "text": "Square"},
+      {"value": "oval", "text": "Oval"},
+      {"value": "hexagon", "text": "Hexagon"}
+    ],
+    "correctAnswer": "oval"
+  },
+  {
+    "question": "I am a shape with five sides and five angles. What am I?",
+    "options": [
+      {"value": "pentagon", "text": "Pentagon"},
+      {"value": "hexagon", "text": "Hexagon"},
+      {"value": "triangle", "text": "Triangle"}
+    ],
+    "correctAnswer": "pentagon"
+  },
+  {
+    "question": "I am a shape with six sides and six angles. What am I?",
+    "options": [
+      {"value": "pentagon", "text": "Pentagon"},
+      {"value": "octagon", "text": "Octagon"},
+      {"value": "hexagon", "text": "Hexagon"}
+    ],
+    "correctAnswer": "hexagon"
+  },
+  {
+    "question": "I am a shape with eight sides and eight angles. What am I?",
+    "options": [
+      {"value": "hexagon", "text": "Hexagon"},
+      {"value": "octagon", "text": "Octagon"},
+      {"value": "pentagon", "text": "Pentagon"}
+    ],
+    "correctAnswer": "octagon"
+  },
+  {
+    "question": "I am a 3D shape with six square faces. What am I?",
+    "options": [
+      {"value": "cube", "text": "Cube"},
+      {"value": "sphere", "text": "Sphere"},
+      {"value": "cylinder", "text": "Cylinder"}
+    ],
+    "correctAnswer": "cube"
+  },
+  {
+    "question": "I am a 3D shape that is perfectly round like a ball. What am I?",
+    "options": [
+      {"value": "cylinder", "text": "Cylinder"},
+      {"value": "sphere", "text": "Sphere"},
+      {"value": "cone", "text": "Cone"}
+    ],
+    "correctAnswer": "sphere"
+  }
+]
