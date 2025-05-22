@@ -16,5 +16,77 @@
       { "text": "Triangulum", "value": "triangulum" }
     ],
     "correctAnswer": "milky way"
+  },
+  {
+    "question": "What is the closest star to Earth?",
+    "options": [
+      { "text": "The Sun", "value": "sun" },
+      { "text": "Polaris", "value": "polaris" },
+      { "text": "Sirius", "value": "sirius" }
+    ],
+    "correctAnswer": "sun"
+  },
+  {
+    "question": "What do astronauts wear in space?",
+    "options": [
+      { "text": "Space suit", "value": "space suit" },
+      { "text": "Raincoat", "value": "raincoat" },
+      { "text": "Swimsuit", "value": "swimsuit" }
+    ],
+    "correctAnswer": "space suit"
+  },
+  {
+    "question": "What shape is the Earth?",
+    "options": [
+      { "text": "Round", "value": "round" },
+      { "text": "Square", "value": "square" },
+      { "text": "Triangle", "value": "triangle" }
+    ],
+    "correctAnswer": "round"
+  },
+  {
+    "question": "What do we call the moon when it is full and bright?",
+    "options": [
+      { "text": "Full moon", "value": "full moon" },
+      { "text": "Half moon", "value": "half moon" },
+      { "text": "New moon", "value": "new moon" }
+    ],
+    "correctAnswer": "full moon"
+  },
+  {
+    "question": "What do we use to look at stars in the sky?",
+    "options": [
+      { "text": "Telescope", "value": "telescope" },
+      { "text": "Microscope", "value": "microscope" },
+      { "text": "Binoculars", "value": "binoculars" }
+    ],
+    "correctAnswer": "telescope"
+  },
+  {
+    "question": "What planet do we live on?",
+    "options": [
+      { "text": "Earth", "value": "earth" },
+      { "text": "Mars", "value": "mars" },
+      { "text": "Venus", "value": "venus" }
+    ],
+    "correctAnswer": "earth"
+  },
+  {
+    "question": "What do we call the path the Earth takes around the Sun?",
+    "options": [
+      { "text": "Orbit", "value": "orbit" },
+      { "text": "Tunnel", "value": "tunnel" },
+      { "text": "Bridge", "value": "bridge" }
+    ],
+    "correctAnswer": "orbit"
+  },
+  {
+    "question": "What do we see in the sky at night that twinkle?",
+    "options": [
+      { "text": "Stars", "value": "stars" },
+      { "text": "Clouds", "value": "clouds" },
+      { "text": "Birds", "value": "birds" }
+    ],
+    "correctAnswer": "stars"
   }
 ]

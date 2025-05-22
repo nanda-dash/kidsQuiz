@@ -9,12 +9,84 @@
     "correctAnswer": "mars"
   },
   {
-    "question": "What is the chemical symbol for water?",
+    "question": "What do you call the water we drink?",
     "options": [
       { "text": "H2O", "value": "h2o" },
       { "text": "O2", "value": "o2" },
       { "text": "CO2", "value": "co2" }
     ],
     "correctAnswer": "h2o"
+  },
+  {
+    "question": "What do you call the big yellow star in the sky?",
+    "options": [
+      { "text": "The Sun", "value": "sun" },
+      { "text": "The Moon", "value": "moon" },
+      { "text": "A Cloud", "value": "cloud" }
+    ],
+    "correctAnswer": "sun"
+  },
+  {
+    "question": "Which animal says 'meow'?",
+    "options": [
+      { "text": "Cat", "value": "cat" },
+      { "text": "Dog", "value": "dog" },
+      { "text": "Cow", "value": "cow" }
+    ],
+    "correctAnswer": "cat"
+  },
+  {
+    "question": "What color are most leaves?",
+    "options": [
+      { "text": "Green", "value": "green" },
+      { "text": "Blue", "value": "blue" },
+      { "text": "Red", "value": "red" }
+    ],
+    "correctAnswer": "green"
+  },
+  {
+    "question": "Which one can you drink?",
+    "options": [
+      { "text": "Water", "value": "water" },
+      { "text": "Sand", "value": "sand" },
+      { "text": "Rock", "value": "rock" }
+    ],
+    "correctAnswer": "water"
+  },
+  {
+    "question": "What do bees make?",
+    "options": [
+      { "text": "Honey", "value": "honey" },
+      { "text": "Milk", "value": "milk" },
+      { "text": "Juice", "value": "juice" }
+    ],
+    "correctAnswer": "honey"
+  },
+  {
+    "question": "Which animal has a long trunk?",
+    "options": [
+      { "text": "Elephant", "value": "elephant" },
+      { "text": "Lion", "value": "lion" },
+      { "text": "Rabbit", "value": "rabbit" }
+    ],
+    "correctAnswer": "elephant"
+  },
+  {
+    "question": "What do you use to see?",
+    "options": [
+      { "text": "Eyes", "value": "eyes" },
+      { "text": "Ears", "value": "ears" },
+      { "text": "Nose", "value": "nose" }
+    ],
+    "correctAnswer": "eyes"
+  },
+  {
+    "question": "What do plants need to grow?",
+    "options": [
+      { "text": "Sunlight", "value": "sunlight" },
+      { "text": "Chocolate", "value": "chocolate" },
+      { "text": "Toys", "value": "toys" }
+    ],
+    "correctAnswer": "sunlight"
   }
 ]

@@ -43,5 +43,50 @@
       {"value": "pencil case", "text": "Pencil Case"}
     ],
     "correctAnswer": "backpack"
+  },
+  {
+    "question": "I am used to color pictures and come in a box with many colors. What am I?",
+    "options": [
+      {"value": "crayons", "text": "Crayons"},
+      {"value": "paint", "text": "Paint"},
+      {"value": "chalk", "text": "Chalk"}
+    ],
+    "correctAnswer": "crayons"
+  },
+  {
+    "question": "I am a round object used to erase pencil marks. What am I?",
+    "options": [
+      {"value": "eraser", "text": "Eraser"},
+      {"value": "sharpener", "text": "Sharpener"},
+      {"value": "ruler", "text": "Ruler"}
+    ],
+    "correctAnswer": "eraser"
+  },
+  {
+    "question": "I am a person who teaches students in a classroom. Who am I?",
+    "options": [
+      {"value": "teacher", "text": "Teacher"},
+      {"value": "doctor", "text": "Doctor"},
+      {"value": "chef", "text": "Chef"}
+    ],
+    "correctAnswer": "teacher"
+  },
+  {
+    "question": "I am a break in the middle of the school day when children eat. What am I?",
+    "options": [
+      {"value": "lunch", "text": "Lunch"},
+      {"value": "assembly", "text": "Assembly"},
+      {"value": "homework", "text": "Homework"}
+    ],
+    "correctAnswer": "lunch"
+  },
+  {
+    "question": "I am a pair of tools used to cut paper. What am I?",
+    "options": [
+      {"value": "scissors", "text": "Scissors"},
+      {"value": "glue", "text": "Glue"},
+      {"value": "tape", "text": "Tape"}
+    ],
+    "correctAnswer": "scissors"
   }
 ]

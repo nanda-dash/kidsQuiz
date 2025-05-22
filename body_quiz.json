@@ -43,5 +43,50 @@
       {"value": "hands", "text": "Hands"}
     ],
     "correctAnswer": "legs"
+  },
+  {
+    "question": "I help you write and draw. What am I?",
+    "options": [
+      {"value": "hands", "text": "Hands"},
+      {"value": "feet", "text": "Feet"},
+      {"value": "arms", "text": "Arms"}
+    ],
+    "correctAnswer": "hands"
+  },
+  {
+    "question": "I help you feel the world through touch. What am I?",
+    "options": [
+      {"value": "skin", "text": "Skin"},
+      {"value": "hair", "text": "Hair"},
+      {"value": "nails", "text": "Nails"}
+    ],
+    "correctAnswer": "skin"
+  },
+  {
+    "question": "I help you think and learn. What am I?",
+    "options": [
+      {"value": "brain", "text": "Brain"},
+      {"value": "heart", "text": "Heart"},
+      {"value": "stomach", "text": "Stomach"}
+    ],
+    "correctAnswer": "brain"
+  },
+  {
+    "question": "I pump blood through your body. What am I?",
+    "options": [
+      {"value": "heart", "text": "Heart"},
+      {"value": "lungs", "text": "Lungs"},
+      {"value": "liver", "text": "Liver"}
+    ],
+    "correctAnswer": "heart"
+  },
+  {
+    "question": "I help you breathe. What am I?",
+    "options": [
+      {"value": "lungs", "text": "Lungs"},
+      {"value": "eyes", "text": "Eyes"},
+      {"value": "ears", "text": "Ears"}
+    ],
+    "correctAnswer": "lungs"
   }
 ]

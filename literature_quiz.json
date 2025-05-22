@@ -1,20 +1,92 @@
 [
   {
-    "question": "Who wrote 'Romeo and Juliet'?",
+    "question": "Who reads you stories before bed?",
     "options": [
-      { "text": "William Shakespeare", "value": "william shakespeare" },
-      { "text": "Charles Dickens", "value": "charles dickens" },
-      { "text": "Jane Austen", "value": "jane austen" }
+      { "text": "Mom", "value": "mom" },
+      { "text": "Dad", "value": "dad" },
+      { "text": "Teacher", "value": "teacher" }
     ],
-    "correctAnswer": "william shakespeare"
+    "correctAnswer": "mom"
   },
   {
-    "question": "What is the name of the wizard in 'The Hobbit'?",
+    "question": "Who wears a magic hat and helps people?",
     "options": [
-      { "text": "Gandalf", "value": "gandalf" },
-      { "text": "Dumbledore", "value": "dumbledore" },
-      { "text": "Merlin", "value": "merlin" }
+      { "text": "Wizard", "value": "wizard" },
+      { "text": "Knight", "value": "knight" },
+      { "text": "Clown", "value": "clown" }
     ],
-    "correctAnswer": "gandalf"
+    "correctAnswer": "wizard"
+  }
+  {
+    "question": "What animal says 'Moo'?",
+    "options": [
+      { "text": "Cow", "value": "cow" },
+      { "text": "Dog", "value": "dog" },
+      { "text": "Cat", "value": "cat" }
+    ],
+    "correctAnswer": "cow"
+  },
+  {
+    "question": "Which color is the sky on a sunny day?",
+    "options": [
+      { "text": "Blue", "value": "blue" },
+      { "text": "Green", "value": "green" },
+      { "text": "Red", "value": "red" }
+    ],
+    "correctAnswer": "blue"
+  },
+  {
+    "question": "Which fruit is yellow and curved?",
+    "options": [
+      { "text": "Banana", "value": "banana" },
+      { "text": "Apple", "value": "apple" },
+      { "text": "Orange", "value": "orange" }
+    ],
+    "correctAnswer": "banana"
+  },
+  {
+    "question": "Which shape has three sides?",
+    "options": [
+      { "text": "Triangle", "value": "triangle" },
+      { "text": "Square", "value": "square" },
+      { "text": "Circle", "value": "circle" }
+    ],
+    "correctAnswer": "triangle"
+  },
+  {
+    "question": "What sound does a dog make?",
+    "options": [
+      { "text": "Woof", "value": "woof" },
+      { "text": "Meow", "value": "meow" },
+      { "text": "Oink", "value": "oink" }
+    ],
+    "correctAnswer": "woof"
+  },
+  {
+    "question": "What do you use to eat soup?",
+    "options": [
+      { "text": "Spoon", "value": "spoon" },
+      { "text": "Fork", "value": "fork" },
+      { "text": "Knife", "value": "knife" }
+    ],
+    "correctAnswer": "spoon"
+  },
+  {
+    "question": "What do bees make?",
+    "options": [
+      { "text": "Honey", "value": "honey" },
+      { "text": "Milk", "value": "milk" },
+      { "text": "Juice", "value": "juice" }
+    ],
+    "correctAnswer": "honey"
+  },
+  {
+    "question": "What do you see in the sky at night?",
+    "options": [
+      { "text": "Stars", "value": "stars" },
+      { "text": "Trees", "value": "trees" },
+      { "text": "Flowers", "value": "flowers" }
+    ],
+    "correctAnswer": "stars"
   }
 ]

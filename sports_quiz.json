@@ -43,5 +43,50 @@
       {"value": "cricket", "text": "Cricket"}
     ],
     "correctAnswer": "golf"
+  },
+  {
+    "question": "I am a sport where you use a racket to hit a yellow ball over a net. What am I?",
+    "options": [
+      {"value": "tennis", "text": "Tennis"},
+      {"value": "table tennis", "text": "Table Tennis"},
+      {"value": "badminton", "text": "Badminton"}
+    ],
+    "correctAnswer": "tennis"
+  },
+  {
+    "question": "I am a sport where you dribble and shoot a ball into a hoop. What am I?",
+    "options": [
+      {"value": "basketball", "text": "Basketball"},
+      {"value": "soccer", "text": "Soccer"},
+      {"value": "volleyball", "text": "Volleyball"}
+    ],
+    "correctAnswer": "basketball"
+  },
+  {
+    "question": "I am a sport played with a bat and a red ball on a pitch. What am I?",
+    "options": [
+      {"value": "cricket", "text": "Cricket"},
+      {"value": "baseball", "text": "Baseball"},
+      {"value": "hockey", "text": "Hockey"}
+    ],
+    "correctAnswer": "cricket"
+  },
+  {
+    "question": "I am a sport where you try to knock down pins with a heavy ball. What am I?",
+    "options": [
+      {"value": "bowling", "text": "Bowling"},
+      {"value": "golf", "text": "Golf"},
+      {"value": "tennis", "text": "Tennis"}
+    ],
+    "correctAnswer": "bowling"
+  },
+  {
+    "question": "I am a sport played in water where you try to score goals by throwing a ball. What am I?",
+    "options": [
+      {"value": "water polo", "text": "Water Polo"},
+      {"value": "swimming", "text": "Swimming"},
+      {"value": "diving", "text": "Diving"}
+    ],
+    "correctAnswer": "water polo"
   }
 ]

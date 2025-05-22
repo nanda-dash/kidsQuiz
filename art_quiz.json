@@ -1,20 +1,112 @@
 [
-  {
-    "question": "Who painted the Mona Lisa?",
-    "options": [
-      { "text": "Leonardo da Vinci", "value": "leonardo da vinci" },
-      { "text": "Vincent van Gogh", "value": "vincent van gogh" },
-      { "text": "Pablo Picasso", "value": "pablo picasso" }
-    ],
-    "correctAnswer": "leonardo da vinci"
-  },
-  {
-    "question": "What is the primary color of the sky in a clear day?",
-    "options": [
-      { "text": "Blue", "value": "blue" },
-      { "text": "Green", "value": "green" },
-      { "text": "Yellow", "value": "yellow" }
-    ],
-    "correctAnswer": "blue"
-  }
+  [
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        { "text": "Leonardo da Vinci", "value": "leonardo da vinci" },
+        { "text": "Vincent van Gogh", "value": "vincent van gogh" },
+        { "text": "Pablo Picasso", "value": "pablo picasso" }
+      ],
+      "correctAnswer": "leonardo da vinci"
+    },
+    {
+      "question": "What is the primary color of the sky in a clear day?",
+      "options": [
+        { "text": "Blue", "value": "blue" },
+        { "text": "Green", "value": "green" },
+        { "text": "Yellow", "value": "yellow" }
+      ],
+      "correctAnswer": "blue"
+    },
+    {
+      "question": "What tool helps you paint beautiful pictures?",
+      "options": [
+        { "text": "Paintbrush", "value": "paintbrush" },
+        { "text": "Fork", "value": "fork" },
+        { "text": "Shoe", "value": "shoe" }
+      ],
+      "correctAnswer": "paintbrush"
+    },
+    {
+      "question": "Which color is bright like the sun?",
+      "options": [
+        { "text": "Yellow", "value": "yellow" },
+        { "text": "Black", "value": "black" },
+        { "text": "Gray", "value": "gray" }
+      ],
+      "correctAnswer": "yellow"
+    },
+    {
+      "question": "What do you use to draw lines and shapes?",
+      "options": [
+        { "text": "Crayon", "value": "crayon" },
+        { "text": "Spoon", "value": "spoon" },
+        { "text": "Hat", "value": "hat" }
+      ],
+      "correctAnswer": "crayon"
+    },
+    {
+      "question": "Which color is usually seen in a rainbow?",
+      "options": [
+        { "text": "Red", "value": "red" },
+        { "text": "Brown", "value": "brown" },
+        { "text": "Black", "value": "black" }
+      ],
+      "correctAnswer": "red"
+    },
+    {
+      "question": "What do you use scissors for?",
+      "options": [
+        { "text": "Cutting paper", "value": "cutting paper" },
+        { "text": "Playing music", "value": "playing music" },
+        { "text": "Watering plants", "value": "watering plants" }
+      ],
+      "correctAnswer": "cutting paper"
+    },
+    {
+      "question": "What can you color with crayons?",
+      "options": [
+        { "text": "Paper", "value": "paper" },
+        { "text": "Ball", "value": "ball" },
+        { "text": "Shoe", "value": "shoe" }
+      ],
+      "correctAnswer": "paper"
+    },
+    {
+      "question": "Which of these is a type of art?",
+      "options": [
+        { "text": "Painting", "value": "painting" },
+        { "text": "Sleeping", "value": "sleeping" },
+        { "text": "Eating", "value": "eating" }
+      ],
+      "correctAnswer": "painting"
+    },
+    {
+      "question": "What do you call the pictures you draw with markers?",
+      "options": [
+        { "text": "Drawing", "value": "drawing" },
+        { "text": "Singing", "value": "singing" },
+        { "text": "Jumping", "value": "jumping" }
+      ],
+      "correctAnswer": "drawing"
+    },
+    {
+      "question": "What do you use to stick things together in art?",
+      "options": [
+        { "text": "Glue", "value": "glue" },
+        { "text": "Spoon", "value": "spoon" },
+        { "text": "Book", "value": "book" }
+      ],
+      "correctAnswer": "glue"
+    },
+    {
+      "question": "What do you call a place where many paintings are shown?",
+      "options": [
+        { "text": "Museum", "value": "museum" },
+        { "text": "Store", "value": "store" },
+        { "text": "Garage", "value": "garage" }
+      ],
+      "correctAnswer": "museum"
+    }
+  ]
 ]

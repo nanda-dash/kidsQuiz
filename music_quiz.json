@@ -9,12 +9,84 @@
     "correctAnswer": "piano"
   },
   {
-    "question": "Who is known as the King of Pop?",
+    "question": "Who sings the song 'Baby Shark'?",
     "options": [
-      { "text": "Michael Jackson", "value": "michael jackson" },
-      { "text": "Elvis Presley", "value": "elvis presley" },
-      { "text": "Freddie Mercury", "value": "freddie mercury" }
+      { "text": "Pinkfong", "value": "pinkfong" },
+      { "text": "The Beatles", "value": "the beatles" },
+      { "text": "Beyoncé", "value": "beyonce" }
     ],
-    "correctAnswer": "michael jackson"
+    "correctAnswer": "pinkfong"
+  },
+  {
+    "question": "Which animal says 'meow'?",
+    "options": [
+      { "text": "Cat", "value": "cat" },
+      { "text": "Dog", "value": "dog" },
+      { "text": "Cow", "value": "cow" }
+    ],
+    "correctAnswer": "cat"
+  },
+  {
+    "question": "What do you use to listen to music?",
+    "options": [
+      { "text": "Ears", "value": "ears" },
+      { "text": "Eyes", "value": "eyes" },
+      { "text": "Nose", "value": "nose" }
+    ],
+    "correctAnswer": "ears"
+  },
+  {
+    "question": "Which instrument do you shake to make sound?",
+    "options": [
+      { "text": "Maracas", "value": "maracas" },
+      { "text": "Piano", "value": "piano" },
+      { "text": "Drum", "value": "drum" }
+    ],
+    "correctAnswer": "maracas"
+  },
+  {
+    "question": "Which of these is a loud sound?",
+    "options": [
+      { "text": "Thunder", "value": "thunder" },
+      { "text": "Whisper", "value": "whisper" },
+      { "text": "Ticking clock", "value": "ticking clock" }
+    ],
+    "correctAnswer": "thunder"
+  },
+  {
+    "question": "What do you use to sing?",
+    "options": [
+      { "text": "Mouth", "value": "mouth" },
+      { "text": "Feet", "value": "feet" },
+      { "text": "Hands", "value": "hands" }
+    ],
+    "correctAnswer": "mouth"
+  },
+  {
+    "question": "Which instrument do you blow into?",
+    "options": [
+      { "text": "Flute", "value": "flute" },
+      { "text": "Drum", "value": "drum" },
+      { "text": "Guitar", "value": "guitar" }
+    ],
+    "correctAnswer": "flute"
+  },
+  {
+    "question": "Which of these is a song you might sing on your birthday?",
+    "options": [
+      { "text": "Happy Birthday", "value": "happy birthday" },
+      { "text": "Jingle Bells", "value": "jingle bells" },
+      { "text": "Twinkle Twinkle", "value": "twinkle twinkle" }
+    ],
+    "correctAnswer": "happy birthday"
+  },
+  {
+    "question": "Which instrument has strings?",
+    "options": [
+      { "text": "Guitar", "value": "guitar" },
+      { "text": "Trumpet", "value": "trumpet" },
+      { "text": "Drum", "value": "drum" }
+    ],
+    "correctAnswer": "guitar"
   }
 ]

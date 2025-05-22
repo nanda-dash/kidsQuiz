@@ -16,5 +16,77 @@
       { "text": "1950", "value": "1950" }
     ],
     "correctAnswer": "1945"
+  },
+  {
+    "question": "Which empire was ruled by Julius Caesar?",
+    "options": [
+      { "text": "Roman Empire", "value": "roman empire" },
+      { "text": "Greek Empire", "value": "greek empire" },
+      { "text": "Ottoman Empire", "value": "ottoman empire" }
+    ],
+    "correctAnswer": "roman empire"
+  },
+  {
+    "question": "Who was the Queen of England during the Spanish Armada?",
+    "options": [
+      { "text": "Queen Elizabeth I", "value": "queen elizabeth i" },
+      { "text": "Queen Victoria", "value": "queen victoria" },
+      { "text": "Mary I", "value": "mary i" }
+    ],
+    "correctAnswer": "queen elizabeth i"
+  },
+  {
+    "question": "What was the main cause of the American Civil War?",
+    "options": [
+      { "text": "Slavery", "value": "slavery" },
+      { "text": "Taxation", "value": "taxation" },
+      { "text": "Religious freedom", "value": "religious freedom" }
+    ],
+    "correctAnswer": "slavery"
+  },
+  {
+    "question": "Who discovered America in 1492?",
+    "options": [
+      { "text": "Christopher Columbus", "value": "christopher columbus" },
+      { "text": "Vasco da Gama", "value": "vasco da gama" },
+      { "text": "Ferdinand Magellan", "value": "ferdinand magellan" }
+    ],
+    "correctAnswer": "christopher columbus"
+  },
+  {
+    "question": "Which ancient civilization built the pyramids?",
+    "options": [
+      { "text": "Egyptians", "value": "egyptians" },
+      { "text": "Romans", "value": "romans" },
+      { "text": "Greeks", "value": "greeks" }
+    ],
+    "correctAnswer": "egyptians"
+  },
+  {
+    "question": "What wall was famously torn down in 1989?",
+    "options": [
+      { "text": "The Berlin Wall", "value": "the berlin wall" },
+      { "text": "The Great Wall of China", "value": "the great wall of china" },
+      { "text": "Hadrian's Wall", "value": "hadrians wall" }
+    ],
+    "correctAnswer": "the berlin wall"
+  },
+  {
+    "question": "Who was the British Prime Minister during World War II?",
+    "options": [
+      { "text": "Winston Churchill", "value": "winston churchill" },
+      { "text": "Margaret Thatcher", "value": "margaret thatcher" },
+      { "text": "Tony Blair", "value": "tony blair" }
+    ],
+    "correctAnswer": "winston churchill"
+  },
+  {
+    "question": "What was the Renaissance?",
+    "options": [
+      { "text": "A cultural movement", "value": "a cultural movement" },
+      { "text": "A war", "value": "a war" },
+      { "text": "A scientific doctrine", "value": "a scientific doctrine" }
+    ],
+    "correctAnswer": "a cultural movement"
   }
 ]

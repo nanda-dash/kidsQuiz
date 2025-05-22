@@ -16,5 +16,77 @@
       { "text": "IBM", "value": "ibm" }
     ],
     "correctAnswer": "eniac"
+  },
+  {
+    "question": "Which device is used to input text into a computer?",
+    "options": [
+      { "text": "Monitor", "value": "monitor" },
+      { "text": "Keyboard", "value": "keyboard" },
+      { "text": "Printer", "value": "printer" }
+    ],
+    "correctAnswer": "keyboard"
+  },
+  {
+    "question": "What does RAM stand for?",
+    "options": [
+      { "text": "Random Access Memory", "value": "random access memory" },
+      { "text": "Read Access Memory", "value": "read access memory" },
+      { "text": "Run Access Memory", "value": "run access memory" }
+    ],
+    "correctAnswer": "random access memory"
+  },
+  {
+    "question": "Which of these is an example of an operating system?",
+    "options": [
+      { "text": "Windows", "value": "windows" },
+      { "text": "Google", "value": "google" },
+      { "text": "Intel", "value": "intel" }
+    ],
+    "correctAnswer": "windows"
+  },
+  {
+    "question": "What is the main function of a printer?",
+    "options": [
+      { "text": "To display images", "value": "display images" },
+      { "text": "To print documents", "value": "print documents" },
+      { "text": "To store data", "value": "store data" }
+    ],
+    "correctAnswer": "print documents"
+  },
+  {
+    "question": "Which part of the computer is considered the 'brain'?",
+    "options": [
+      { "text": "CPU", "value": "cpu" },
+      { "text": "Mouse", "value": "mouse" },
+      { "text": "Monitor", "value": "monitor" }
+    ],
+    "correctAnswer": "cpu"
+  },
+  {
+    "question": "What does the internet connect?",
+    "options": [
+      { "text": "Computers around the world", "value": "computers around the world" },
+      { "text": "Only printers", "value": "only printers" },
+      { "text": "Only keyboards", "value": "only keyboards" }
+    ],
+    "correctAnswer": "computers around the world"
+  },
+  {
+    "question": "Which of these is a web browser?",
+    "options": [
+      { "text": "Chrome", "value": "chrome" },
+      { "text": "Excel", "value": "excel" },
+      { "text": "Word", "value": "word" }
+    ],
+    "correctAnswer": "chrome"
+  },
+  {
+    "question": "What is used to store large amounts of data permanently?",
+    "options": [
+      { "text": "Hard Drive", "value": "hard drive" },
+      { "text": "RAM", "value": "ram" },
+      { "text": "CPU", "value": "cpu" }
+    ],
+    "correctAnswer": "hard drive"
   }
 ]

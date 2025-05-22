@@ -43,6 +43,50 @@
       {"value": "pea", "text": "Pea"}
     ],
     "correctAnswer": "broccoli"
+  },
+  {
+    "question": "I am a dairy product that is often spread on toast for breakfast. What am I?",
+    "options": [
+      {"value": "butter", "text": "Butter"},
+      {"value": "cheese", "text": "Cheese"},
+      {"value": "yogurt", "text": "Yogurt"}
+    ],
+    "correctAnswer": "butter"
+  },
+  {
+    "question": "I am a popular Italian dish with layers of pasta, cheese, and tomato sauce. What am I?",
+    "options": [
+      {"value": "pasta", "text": "Pasta"},
+      {"value": "lasagna", "text": "Lasagna"},
+      {"value": "salad", "text": "Salad"}
+    ],
+    "correctAnswer": "lasagna"
+  },
+  {
+    "question": "I am a beverage brewed from roasted beans and often enjoyed in the morning. What am I?",
+    "options": [
+      {"value": "tea", "text": "Tea"},
+      {"value": "soda", "text": "Soda"},
+      {"value": "coffee", "text": "Coffee"}
+    ],
+    "correctAnswer": "coffee"
+  },
+  {
+    "question": "I am a grain often cooked as a porridge and eaten for breakfast. What am I?",
+    "options": [
+      {"value": "wheat", "text": "Wheat"},
+      {"value": "rice", "text": "Rice"},
+      {"value": "oats", "text": "Oats"}
+    ],
+    "correctAnswer": "oats"
+  },
+  {
+    "question": "I am a crispy, salty snack often found in a bag. What am I?",
+    "options": [
+      {"value": "chips", "text": "Chips"},
+      {"value": "cookies", "text": "Cookies"},
+      {"value": "candy", "text": "Candy"}
+    ],
+    "correctAnswer": "chips"
   }
 ]
-

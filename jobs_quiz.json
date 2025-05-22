@@ -43,5 +43,50 @@
       {"value": "farmer", "text": "Farmer"}
     ],
     "correctAnswer": "chef"
+  },
+  {
+    "question": "I fix cars and repair machines. What am I?",
+    "options": [
+      {"value": "mechanic", "text": "Mechanic"},
+      {"value": "teacher", "text": "Teacher"},
+      {"value": "chef", "text": "Chef"}
+    ],
+    "correctAnswer": "mechanic"
+  },
+  {
+    "question": "I design buildings and create blueprints. What am I?",
+    "options": [
+      {"value": "architect", "text": "Architect"},
+      {"value": "farmer", "text": "Farmer"},
+      {"value": "pilot", "text": "Pilot"}
+    ],
+    "correctAnswer": "architect"
+  },
+  {
+    "question": "I defend people and enforce the law. What am I?",
+    "options": [
+      {"value": "policeman", "text": "Policeman"},
+      {"value": "teacher", "text": "Teacher"},
+      {"value": "doctor", "text": "Doctor"}
+    ],
+    "correctAnswer": "policeman"
+  },
+  {
+    "question": "I bake delicious pastries and bread. What am I?",
+    "options": [
+      {"value": "baker", "text": "Baker"},
+      {"value": "mechanic", "text": "Mechanic"},
+      {"value": "architect", "text": "Architect"}
+    ],
+    "correctAnswer": "baker"
+  },
+  {
+    "question": "I write books and stories to share ideas. What am I?",
+    "options": [
+      {"value": "writer", "text": "Writer"},
+      {"value": "farmer", "text": "Farmer"},
+      {"value": "pilot", "text": "Pilot"}
+    ],
+    "correctAnswer": "writer"
   }
 ]

@@ -43,5 +43,50 @@
       {"value": "airplane", "text": "Airplane"}
     ],
     "correctAnswer": "train"
+  },
+  {
+    "question": "I have two wheels and a motor. I am faster than a bicycle. What am I?",
+    "options": [
+      {"value": "bus", "text": "Bus"},
+      {"value": "motorcycle", "text": "Motorcycle"},
+      {"value": "boat", "text": "Boat"}
+    ],
+    "correctAnswer": "motorcycle"
+  },
+  {
+    "question": "I take people underground in big cities. What am I?",
+    "options": [
+      {"value": "subway", "text": "Subway"},
+      {"value": "car", "text": "Car"},
+      {"value": "bicycle", "text": "Bicycle"}
+    ],
+    "correctAnswer": "subway"
+  },
+  {
+    "question": "I am pulled by horses and have wheels, but no engine. What am I?",
+    "options": [
+      {"value": "carriage", "text": "Carriage"},
+      {"value": "bus", "text": "Bus"},
+      {"value": "train", "text": "Train"}
+    ],
+    "correctAnswer": "carriage"
+  },
+  {
+    "question": "I am small, have four wheels, and families use me every day. What am I?",
+    "options": [
+      {"value": "car", "text": "Car"},
+      {"value": "boat", "text": "Boat"},
+      {"value": "airplane", "text": "Airplane"}
+    ],
+    "correctAnswer": "car"
+  },
+  {
+    "question": "I am used to carry goods on roads and am bigger than a car. What am I?",
+    "options": [
+      {"value": "truck", "text": "Truck"},
+      {"value": "bicycle", "text": "Bicycle"},
+      {"value": "bus", "text": "Bus"}
+    ],
+    "correctAnswer": "truck"
   }
 ]

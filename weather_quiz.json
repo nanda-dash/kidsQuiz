@@ -43,5 +43,50 @@
       {"value": "cloud", "text": "Cloud"}
     ],
     "correctAnswer": "rain"
+  },
+  {
+    "question": "I am a bright flash in the sky during a storm. What am I?",
+    "options": [
+      {"value": "lightning", "text": "Lightning"},
+      {"value": "rain", "text": "Rain"},
+      {"value": "wind", "text": "Wind"}
+    ],
+    "correctAnswer": "lightning"
+  },
+  {
+    "question": "I make a loud sound after lightning. What am I?",
+    "options": [
+      {"value": "thunder", "text": "Thunder"},
+      {"value": "snow", "text": "Snow"},
+      {"value": "cloud", "text": "Cloud"}
+    ],
+    "correctAnswer": "thunder"
+  },
+  {
+    "question": "I am a colorful arc seen after rain. What am I?",
+    "options": [
+      {"value": "rainbow", "text": "Rainbow"},
+      {"value": "cloud", "text": "Cloud"},
+      {"value": "sun", "text": "Sun"}
+    ],
+    "correctAnswer": "rainbow"
+  },
+  {
+    "question": "I am frozen rain that falls as small balls. What am I?",
+    "options": [
+      {"value": "hail", "text": "Hail"},
+      {"value": "snow", "text": "Snow"},
+      {"value": "rain", "text": "Rain"}
+    ],
+    "correctAnswer": "hail"
+  },
+  {
+    "question": "I am a thick mist that makes it hard to see. What am I?",
+    "options": [
+      {"value": "fog", "text": "Fog"},
+      {"value": "wind", "text": "Wind"},
+      {"value": "sun", "text": "Sun"}
+    ],
+    "correctAnswer": "fog"
   }
 ]

@@ -16,5 +16,77 @@
       { "text": "Australia", "value": "australia" }
     ],
     "correctAnswer": "africa"
+  },
+  {
+    "question": "Which is the longest river in the world?",
+    "options": [
+      { "text": "Nile", "value": "nile" },
+      { "text": "Amazon", "value": "amazon" },
+      { "text": "Mississippi", "value": "mississippi" }
+    ],
+    "correctAnswer": "nile"
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "options": [
+      { "text": "Pacific Ocean", "value": "pacific" },
+      { "text": "Atlantic Ocean", "value": "atlantic" },
+      { "text": "Indian Ocean", "value": "indian" }
+    ],
+    "correctAnswer": "pacific"
+  },
+  {
+    "question": "Which country has the highest population?",
+    "options": [
+      { "text": "China", "value": "china" },
+      { "text": "India", "value": "india" },
+      { "text": "USA", "value": "usa" }
+    ],
+    "correctAnswer": "china"
+  },
+  {
+    "question": "Mount Everest is located in which mountain range?",
+    "options": [
+      { "text": "Himalayas", "value": "himalayas" },
+      { "text": "Andes", "value": "andes" },
+      { "text": "Alps", "value": "alps" }
+    ],
+    "correctAnswer": "himalayas"
+  },
+  {
+    "question": "Which desert is the largest in the world?",
+    "options": [
+      { "text": "Sahara", "value": "sahara" },
+      { "text": "Gobi", "value": "gobi" },
+      { "text": "Arabian", "value": "arabian" }
+    ],
+    "correctAnswer": "sahara"
+  },
+  {
+    "question": "What is the smallest country in the world?",
+    "options": [
+      { "text": "Vatican City", "value": "vatican" },
+      { "text": "Monaco", "value": "monaco" },
+      { "text": "San Marino", "value": "san_marino" }
+    ],
+    "correctAnswer": "vatican"
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": [
+      { "text": "Japan", "value": "japan" },
+      { "text": "China", "value": "china" },
+      { "text": "South Korea", "value": "south_korea" }
+    ],
+    "correctAnswer": "japan"
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "options": [
+      { "text": "Canberra", "value": "canberra" },
+      { "text": "Sydney", "value": "sydney" },
+      { "text": "Melbourne", "value": "melbourne" }
+    ],
+    "correctAnswer": "canberra"
   }
 ]

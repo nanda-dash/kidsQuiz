@@ -16,5 +16,86 @@
       { "text": "210", "value": "210" }
     ],
     "correctAnswer": "206"
+  },
+  {
+    "question": "What is the main function of the heart?",
+    "options": [
+      { "text": "Pump blood", "value": "pump_blood" },
+      { "text": "Filter toxins", "value": "filter_toxins" },
+      { "text": "Produce hormones", "value": "produce_hormones" }
+    ],
+    "correctAnswer": "pump_blood"
+  },
+  {
+    "question": "Which blood type is known as the universal donor?",
+    "options": [
+      { "text": "O negative", "value": "o_negative" },
+      { "text": "A positive", "value": "a_positive" },
+      { "text": "B positive", "value": "b_positive" }
+    ],
+    "correctAnswer": "o_negative"
+  },
+  {
+    "question": "Which organ is responsible for filtering blood in the human body?",
+    "options": [
+      { "text": "Kidneys", "value": "kidneys" },
+      { "text": "Lungs", "value": "lungs" },
+      { "text": "Stomach", "value": "stomach" }
+    ],
+    "correctAnswer": "kidneys"
+  },
+  {
+    "question": "Which nutrient is most important for muscle repair?",
+    "options": [
+      { "text": "Protein", "value": "protein" },
+      { "text": "Carbohydrates", "value": "carbohydrates" },
+      { "text": "Fats", "value": "fats" }
+    ],
+    "correctAnswer": "protein"
+  },
+  {
+    "question": "Which vitamin is produced when the skin is exposed to sunlight?",
+    "options": [
+      { "text": "Vitamin D", "value": "vitamin_d" },
+      { "text": "Vitamin C", "value": "vitamin_c" },
+      { "text": "Vitamin A", "value": "vitamin_a" }
+    ],
+    "correctAnswer": "vitamin_d"
+  },
+  {
+    "question": "What system in the human body fights infections?",
+    "options": [
+      { "text": "Immune system", "value": "immune_system" },
+      { "text": "Respiratory system", "value": "respiratory_system" },
+      { "text": "Nervous system", "value": "nervous_system" }
+    ],
+    "correctAnswer": "immune_system"
+  },
+  {
+    "question": "Which part of the brain controls balance and coordination?",
+    "options": [
+      { "text": "Cerebellum", "value": "cerebellum" },
+      { "text": "Cerebrum", "value": "cerebrum" },
+      { "text": "Brainstem", "value": "brainstem" }
+    ],
+    "correctAnswer": "cerebellum"
+  },
+  {
+    "question": "What is the main function of red blood cells?",
+    "options": [
+      { "text": "Carry oxygen", "value": "carry_oxygen" },
+      { "text": "Fight infections", "value": "fight_infections" },
+      { "text": "Clot blood", "value": "clot_blood" }
+    ],
+    "correctAnswer": "carry_oxygen"
+  },
+  {
+    "question": "Which mineral is essential for strong bones?",
+    "options": [
+      { "text": "Calcium", "value": "calcium" },
+      { "text": "Sodium", "value": "sodium" },
+      { "text": "Potassium", "value": "potassium" }
+    ],
+    "correctAnswer": "calcium"
   }
 ]

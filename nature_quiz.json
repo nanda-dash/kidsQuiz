@@ -43,5 +43,50 @@
       {"value": "grass", "text": "Grass"}
     ],
     "correctAnswer": "flower"
+  },
+  {
+    "question": "I am green and cover the ground in parks and fields. What am I?",
+    "options": [
+      {"value": "grass", "text": "Grass"},
+      {"value": "sand", "text": "Sand"},
+      {"value": "water", "text": "Water"}
+    ],
+    "correctAnswer": "grass"
+  },
+  {
+    "question": "I am cold and fall from the sky in winter. What am I?",
+    "options": [
+      {"value": "snow", "text": "Snow"},
+      {"value": "rain", "text": "Rain"},
+      {"value": "hail", "text": "Hail"}
+    ],
+    "correctAnswer": "snow"
+  },
+  {
+    "question": "I am a large body of salt water that covers much of the Earth. What am I?",
+    "options": [
+      {"value": "ocean", "text": "Ocean"},
+      {"value": "lake", "text": "Lake"},
+      {"value": "river", "text": "River"}
+    ],
+    "correctAnswer": "ocean"
+  },
+  {
+    "question": "I am a small animal that hops and has long ears. What am I?",
+    "options": [
+      {"value": "rabbit", "text": "Rabbit"},
+      {"value": "dog", "text": "Dog"},
+      {"value": "cat", "text": "Cat"}
+    ],
+    "correctAnswer": "rabbit"
+  },
+  {
+    "question": "I am a tall mountain that sometimes has a snowy top. What am I?",
+    "options": [
+      {"value": "mountain", "text": "Mountain"},
+      {"value": "hill", "text": "Hill"},
+      {"value": "valley", "text": "Valley"}
+    ],
+    "correctAnswer": "mountain"
   }
 ]

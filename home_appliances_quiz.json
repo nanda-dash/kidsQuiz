@@ -43,5 +43,50 @@
       {"value": "blender", "text": "Blender"}
     ],
     "correctAnswer": "vacuum"
+  },
+  {
+    "question": "I brew your coffee quickly every morning. What am I?",
+    "options": [
+      {"value": "coffee_maker", "text": "Coffee Maker"},
+      {"value": "microwave", "text": "Microwave"},
+      {"value": "oven", "text": "Oven"}
+    ],
+    "correctAnswer": "coffee_maker"
+  },
+  {
+    "question": "I gently warm your food over a long period for perfect tenderness. What am I?",
+    "options": [
+      {"value": "slow_cooker", "text": "Slow Cooker"},
+      {"value": "toaster_oven", "text": "Toaster Oven"},
+      {"value": "microwave", "text": "Microwave"}
+    ],
+    "correctAnswer": "slow_cooker"
+  },
+  {
+    "question": "I create smooth blends for your favorite drinks. What am I?",
+    "options": [
+      {"value": "blender", "text": "Blender"},
+      {"value": "food_processor", "text": "Food Processor"},
+      {"value": "juicer", "text": "Juicer"}
+    ],
+    "correctAnswer": "blender"
+  },
+  {
+    "question": "I toast your bread to a perfect crunch. What am I?",
+    "options": [
+      {"value": "toaster", "text": "Toaster"},
+      {"value": "oven", "text": "Oven"},
+      {"value": "microwave", "text": "Microwave"}
+    ],
+    "correctAnswer": "toaster"
+  },
+  {
+    "question": "I provide hot water for your tea and other drinks in seconds. What am I?",
+    "options": [
+      {"value": "kettle", "text": "Kettle"},
+      {"value": "coffee_maker", "text": "Coffee Maker"},
+      {"value": "microwave", "text": "Microwave"}
+    ],
+    "correctAnswer": "kettle"
   }
 ]

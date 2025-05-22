@@ -226,7 +226,74 @@
           }
 
 
-         /* Responsive adjustments */
+         /* Pink Theme */
+         body.theme-pink {
+             background: linear-gradient(to bottom, #f8bbd0, #fce4ec);
+             color: #ad1457;
+         }
+         .theme-pink .quiz-container {
+             background-color: #fff0f6;
+             box-shadow: 0 8px 16px rgba(173, 20, 87, 0.15);
+         }
+         .theme-pink h1,
+         .theme-pink .quiz-selector label,
+         .theme-pink .theme-selector label,
+         .theme-pink .results {
+             color: #d81b60;
+         }
+         .theme-pink .quiz-selector select,
+         .theme-pink .theme-selector select {
+             border-color: #d81b60;
+         }
+         .theme-pink .question {
+             border-bottom: 2px dashed #f06292;
+         }
+         .theme-pink button {
+             background: linear-gradient(to right, #f06292, #ec407a);
+         }
+         .theme-pink button:hover {
+             background: linear-gradient(to right, #ec407a, #ad1457);
+         }
+         .theme-pink .celebration {
+             color: #f8bbd0;
+         }
+
+         /* Dark Theme */
+         body.theme-dark {
+             background: linear-gradient(to bottom, #232526, #414345);
+             color: #f5f5f5;
+         }
+         .theme-dark .quiz-container {
+             background-color: #2c2c2c;
+             box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+         }
+         .theme-dark h1,
+         .theme-dark .quiz-selector label,
+         .theme-dark .theme-selector label,
+         .theme-dark .results {
+             color: #90caf9;
+         }
+         .theme-dark .quiz-selector select,
+         .theme-dark .theme-selector select {
+             border-color: #90caf9;
+             background: #232526;
+             color: #f5f5f5;
+         }
+         .theme-dark .question {
+             border-bottom: 2px dashed #616161;
+         }
+         .theme-dark button {
+             background: linear-gradient(to right, #424242, #212121);
+             color: #fff;
+         }
+         .theme-dark button:hover {
+             background: linear-gradient(to right, #212121, #424242);
+         }
+         .theme-dark .celebration {
+             color: #ffd600;
+         }
+
+        /* Responsive adjustments */
         @media (max-width: 600px) {
             .quiz-container {
                 padding: 20px;
@@ -278,6 +345,8 @@
                 <option value="default">Bright Theme</option>
                 <option value="pastel">Pastel Theme</option>
                 <option value="nature">Nature Theme</option>
+                <option value="pink">Pink Theme</option>
+                <option value="dark">Dark Theme</option>
             </select>
         </div>
 
@@ -363,7 +432,7 @@
         function applyTheme(themeName) {
             const body = document.body;
             // Remove any existing theme classes
-            body.classList.remove('theme-pastel', 'theme-nature'); // Add more theme classes here
+            body.classList.remove('theme-pastel', 'theme-nature', 'theme-pink', 'theme-dark'); // Add more theme classes here
 
             // Add the selected theme class
             if (themeName !== 'default') {

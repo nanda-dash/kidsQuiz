@@ -43,5 +43,50 @@
       {"value": "brother", "text": "Brother"}
     ],
     "correctAnswer": "father"
+  },
+  {
+    "question": "I am your mother's sister. What am I?",
+    "options": [
+      {"value": "aunt", "text": "Aunt"},
+      {"value": "cousin", "text": "Cousin"},
+      {"value": "sister", "text": "Sister"}
+    ],
+    "correctAnswer": "aunt"
+  },
+  {
+    "question": "I am your father's father. What am I?",
+    "options": [
+      {"value": "grandfather", "text": "Grandfather"},
+      {"value": "uncle", "text": "Uncle"},
+      {"value": "father", "text": "Father"}
+    ],
+    "correctAnswer": "grandfather"
+  },
+  {
+    "question": "I am your uncle's daughter. What am I?",
+    "options": [
+      {"value": "cousin", "text": "Cousin"},
+      {"value": "niece", "text": "Niece"},
+      {"value": "sister", "text": "Sister"}
+    ],
+    "correctAnswer": "cousin"
+  },
+  {
+    "question": "I am your daughter's mother. What am I?",
+    "options": [
+      {"value": "mother", "text": "Mother"},
+      {"value": "sister", "text": "Sister"},
+      {"value": "grandmother", "text": "Grandmother"}
+    ],
+    "correctAnswer": "mother"
+  },
+  {
+    "question": "I am your brother's son. What am I?",
+    "options": [
+      {"value": "nephew", "text": "Nephew"},
+      {"value": "cousin", "text": "Cousin"},
+      {"value": "son", "text": "Son"}
+    ],
+    "correctAnswer": "nephew"
   }
 ]

@@ -43,5 +43,50 @@
       {"value": "yellow", "text": "Yellow"}
     ],
     "correctAnswer": "purple"
+  },
+  {
+    "question": "I am the color of a ripe orange. What color am I?",
+    "options": [
+      {"value": "orange", "text": "Orange"},
+      {"value": "green", "text": "Green"},
+      {"value": "red", "text": "Red"}
+    ],
+    "correctAnswer": "orange"
+  },
+  {
+    "question": "I am the color of a lemon. What color am I?",
+    "options": [
+      {"value": "yellow", "text": "Yellow"},
+      {"value": "blue", "text": "Blue"},
+      {"value": "purple", "text": "Purple"}
+    ],
+    "correctAnswer": "yellow"
+  },
+  {
+    "question": "I am the color of coal. What color am I?",
+    "options": [
+      {"value": "black", "text": "Black"},
+      {"value": "white", "text": "White"},
+      {"value": "gray", "text": "Gray"}
+    ],
+    "correctAnswer": "black"
+  },
+  {
+    "question": "I am the color of snow. What color am I?",
+    "options": [
+      {"value": "white", "text": "White"},
+      {"value": "black", "text": "Black"},
+      {"value": "pink", "text": "Pink"}
+    ],
+    "correctAnswer": "white"
+  },
+  {
+    "question": "I am the color of chocolate. What color am I?",
+    "options": [
+      {"value": "brown", "text": "Brown"},
+      {"value": "red", "text": "Red"},
+      {"value": "orange", "text": "Orange"}
+    ],
+    "correctAnswer": "brown"
   }
 ]
